@@ -1,0 +1,217 @@
+﻿a, b, body, dd, del, div, dl, dt, em, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var, input {
+    margin: 0;
+    padding: 0;
+}
+ol,
+ul {
+    list-style: none;
+}
+img,button,input {
+    border: 0;
+}
+em, i, u {
+    font-style: normal;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix {
+    *zoom: 1;
+}
+body {
+    font: 12px/1.5 'microsoft yahei',Arial, Verdana, "\5b8b\4f53";
+    color: #666;
+}
+a {
+    color: #666;
+    text-decoration: none;
+    font-family: 'microsoft yahei';
+}
+a:hover {
+    color: #c81623;
+}
+/* 版心公共类 */
+.container {
+    width: 1190px;
+    margin: 0 auto;
+}
+.ml-5 {
+    margin-left: 5px;
+}
+.mr-5 {
+    margin-right: 5px;
+}
+.mt-5 {
+    margin-top: 5px;
+}
+.mb-5 {
+    margin-bottom: 5px;
+}
+.pl-5 {
+    padding-left: 5px;
+}
+.pr-5 {
+    padding-right: 5px;
+}
+.pt-5 {
+    padding-top: 5px;
+}
+.pd-5 {
+    padding-bottom: 5px;
+}
+/* 网站主色调 */
+.m-color {
+    color: #00bf65;
+}
+/* 解决图片下面留白的问题 */
+img {
+    vertical-align: top;
+}
+/* 解决文字超出溢出问题 */
+.text-cut {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+/*脚部区域*/
+.tc-foot {
+    height: 223px;
+    padding-top: 18px;
+    background-color: #eaeaea;
+}
+.tc-foot .foot-line {
+    height: 223px;
+    position: relative;
+
+}
+.tc-foot .foot-line:after {
+    content: '';
+    width: 1190px;
+    height: 1px;
+    border-bottom: 1px dashed #ccc;
+    position: absolute;
+    left: 0;
+    bottom: 20px; 
+}
+.tc-foot ul li {
+    float: left;
+}
+.tc-foot ul .foot-suggestion {
+    width: 182px;
+}
+.tc-foot ul .foot-suggestion  .question {
+    margin-top: 20px;
+}
+.tc-foot ul .foot-suggestion  .question div {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background:  url(../images/icon_1.png) -4px -297px no-repeat;
+    vertical-align: middle;
+}
+.tc-foot ul .foot-suggestion .tel24{
+    margin-top: 20px;
+}
+.tc-foot ul .foot-suggestion .tel24 .tel-icon {
+    width: 40px;
+    height: 40px;
+    background:  url(../images/icon_1.png) -49px -298px no-repeat;
+
+}
+.tc-foot ul .foot-suggestion .tel24 p {
+    line-height: 20px;
+}
+.tc-foot ul li ul {
+    width: 200px;
+    /*background-color: red;*/
+}
+.tc-foot ul li ul li { 
+    float: none;
+
+}
+
+.tc-foot ul li ul li h2 {
+    font-weight: normal;
+    color: black;
+    line-height: 35px;
+}
+.tc-foot ul li ul li a {
+    font-size: 12px;
+    line-height: 26px;
+    color: #999;
+}
+.tc-foot ul li ul li a.yj-box {
+    position: relative;
+}
+.tc-foot ul li ul li a.yj-box:after {
+    content: '推广赚佣金';
+    width: 70px;
+    height: 17px;
+    background-color: #ff6535;
+    position: absolute;
+    left: 58px;
+    top: 0;
+    line-height: 17px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    border-radius: 8px 8px 8px 0;
+}
+.tc-foot ul .ft-webSite ul li.to-travel a{
+    width: 88px;
+    height: 26px;
+    display: block;
+    background:  url(../images/icon_1.png) -172px -1px no-repeat;
+    border: 1px solid #dedede;
+}
+.tc-foot ul .ft-webSite ul li.al-travel a {
+    width: 88px;
+    height: 26px;
+    display: block;
+    background:  url(../images/icon_1.png) -172px -41px no-repeat;
+    border: 1px solid #dedede;
+    margin: 8px 0;
+}
+.tc-foot ul .ft-webSite ul li.jh-travel a {
+    width: 88px;
+    height: 26px;
+    display: block;
+    background:  url(../images/icon_1.png) -172px -81px no-repeat;
+    border: 1px solid #dedede;
+    margin: 8px 0;
+}
+.tc-foot ul .ft-app ul li.er a{
+    width: 100px;
+    height: 100px;
+    display: block;
+    background:  url(../images/icon_1.png) -198px -159px no-repeat;    
+}
+.friendlink {
+    height: 100px;
+    /*background-color: pink;*/
+}
+.friendlink span {
+    color: #bbb;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 20px;
+    margin-right: 10px;
+}
+.friendlink a {
+    color: #bbb;
+    line-height: 24px;
+    margin-right: 13px;
+    display: inline-block;
+}

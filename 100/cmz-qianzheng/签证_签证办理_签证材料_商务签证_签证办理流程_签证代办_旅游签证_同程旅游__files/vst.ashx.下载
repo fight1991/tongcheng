@@ -1,0 +1,7 @@
+ var _tcmmt=1532180561585;
+ var _tclk=1532180561759920;
+ var _tccip=1699855576;
+ var tcvst = document.createElement('script');
+ tcvst.type = 'text/javascript';
+ tcvst.src = '//file.40017.cn/bijs/vstjs/NTSV2.7.1.js';
+ var tcsc = document.getElementsByTagName('script')[0]; tcsc.parentNode.insertBefore(tcvst, tcsc);

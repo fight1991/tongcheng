@@ -1,0 +1,5010 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>同程旅游</title>
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" type="text/css" href="fontClass/iconfont.css">
+	<script src="js/jquery-1.12.4.js"></script>
+</head>
+<body>	
+	<!--头部区域开始-->
+	<div class="head">
+	  <div class="head_t">
+	    <div class="banxin container clearfix">
+	      <div class="banxin_left fl">
+	        您好,请<span><a href="javaScript:;">登录</a></span>
+	        <span>&nbsp;&nbsp;&nbsp;<a href="javaScript:;">免费注册</a></span>
+	      </div>
+	      <div class="banxin_right fr">
+	        <ul>
+	          <li><a href="javaScript:;">我的订单</a></li>
+	          <li class="myTc open">
+	            <a href="javaScript:;">
+	              我的同程<i class="iconfont icon-xiajiantou"></i>
+	            </a>
+	            <div class="downOrder">
+	              <p>你好,<a href="#">请登录</a></p>
+	              <div class="list_l fl">
+	                <p><a href="#">我的订单</a></p>
+	                <p><a href="#">我的收藏</a></p>
+	              </div>
+	              <div class="list_r fr">
+	                <p><a href="#">我的信息</a></p>
+	                <p><a href="#">会员中心</a></p>
+	              </div>
+	
+	            </div>
+	          </li>
+	          <li class="service open">
+	            <a href="javaScript:;">
+	              客户服务<i class="iconfont icon-xiajiantou"></i>
+	            </a>
+	            <div class="downHelp">
+	              <ul>
+	                <li><a href="#">帮助中心</a></li>
+	                <li><a href="#">在线客服</a></li>
+	                <li><a href="#">人工服务</a></li>
+	                <li><a href="#">包团定制</a></li>
+	              </ul>
+	            </div>
+	          </li>
+	          <li class="center open">
+	            <a href="javaScript:;">
+	              合作中心<i class="iconfont icon-xiajiantou"></i>
+	            </a>
+	            <div class="downNet">
+	              <ul>
+	                <li><a href="#">网站联盟</a></li>
+	                <li><a href="#">品牌合作</a></li>
+	                <li><a href="#">合作加盟</a></li>
+	                <li><a href="#">门票合作</a></li>
+	                <li><a href="#">商旅合作</a></li>
+	              </ul>
+	            </div>
+	          </li>
+	          <li class="open">
+	            <a href="javaScript:;">
+	              <i class="iconfont icon-shouji color"></i>
+	            </a>
+	            <div class="appEwm"></div>
+	          </li>
+	          <li class="open">
+	            <a href="javaScript:;">
+	              <i class="iconfont icon-wechat color"></i>
+	            </a>
+	            <div class="wechat"></div>
+	          </li>
+	        </ul>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="head_m container clearfix">
+	    <div class="logo fl">
+	      <a href=""><img src="images/logo.png" alt=""></a>
+	      <div class="gps fr">上海<i class="iconfont icon-xiajiantou"></i></div>
+	    </div>
+	      <div class="item fr">
+	        <div class="search fl">
+	          <input type="text" class="fl" value="">
+	          <button class="text fl">搜索</button>
+	        </div>
+	        <div class="link fr"><img src="images/telphone.png" alt=""></div>
+	      </div>
+	  </div>
+	  <div class="head_b">
+	    <div class="head_open"></div>
+	    <div class="container clearfix">
+	      <div class="details"></div>
+	      <!--在版心导航区域下方创建隐藏框-->
+	      <ul class='nav'>
+	       <!--根据内容动态创建a-->
+	      </ul>
+	    </div>
+	  </div>
+	</div>
+	<!--头部区域结束-->	
+	<!-- 页面左侧固定导航栏 -->
+	<div class="page-left-nav hidden">
+		<ul>
+			<li><a href="#choiceness">精选特惠</a></li>	
+			<li><a href="#hotel-box">酒店</a></li>
+			<li><a href="#scenery">景点</a></li>
+			<li><a href="#nearby">周边</a></li>
+			<li><a href="#china">国内</a></li>
+			<li><a href="#world">出境</a></li>
+			<li><a href="#cruise">邮轮</a></li>
+			<li><a href="#strategy">攻略</a></li>
+			<li><a href="#travelService">旅行服务</a></li>
+			<li class="bgico"><a href="">TOP</a></li>
+		</ul>
+	</div>
+	<!-- 左侧导航栏结束 -->
+	<!--右侧导航栏-->
+	<div id="common-silder">
+	  <div class="top-show">
+	    <a href="#">
+	      <img src="images/set01.jpg" alt="">
+	    </a>
+	    <div class="bigImg">
+	      <img src="images/set02.jpg" alt="">
+	    </div>
+	  </div>
+	  <div class="myTc rightTab" id="current">
+	    <a href="#"></a>
+	    <span>
+	    	我的同程
+	    	<i></i>
+	    </span>
+	  </div>
+	  <div class="myOrder rightTab">
+	    <a href="#"></a>
+	    <span>
+	    	我的订单
+	    	<i></i>
+	    </span>
+	  </div>
+	  <div class="myHave rightTab">
+	    <a href="#"></a>
+	    <span>
+	    	我的收藏
+	    	<i></i>
+	    </span>
+	  </div>
+	  <div class="suggest rightTab">
+	    <a href="#"></a>
+	    <span>
+	    	意见反馈
+	    	<i></i>
+	    </span>
+	  </div>
+	  <div class="onlineService rightTab">
+	    <a href="#"></a>
+	    <span>
+	    	在线服务
+	    	<i></i>
+	    </span>
+	  </div>
+	  <div class="lastTwo">
+	    <div class="erweima rightTab">
+	      <a href="#"></a>
+	      <em><img src="images/15.png" alt=""></em>
+	    </div>
+	    <div class="topBack rightTab" id="last">
+	      <a href="#"></a>
+	      <span>
+	      	返回顶部
+	      	<i></i>
+	      </span>
+	    </div>
+	  </div>
+	</div>
+	<!--右侧导航栏结束-->
+	<!-- 页脚弹窗 -->
+	<div class="foot-advert">
+		<div class="foot-advert-title hidden">
+			<img src="images/foot-advert-left.png" alt="">
+		</div>
+		<div class="foot-advert-info">
+			<div class="foot-advert-box"></div>
+			<div class="container">
+				<img src="images/footadvert.png" alt="">
+			</div>
+			<div class="closebtn">
+				
+			</div>
+		</div>
+	</div>
+	<!-- banner区域 -->
+	<div class="banner">
+		<div class="banner-pic">
+			<img class = "show bannerimg" src="images/banner01.jpg" 	alt="">
+			<img class = "hidden bannerimg" src="images/banner02.jpg" alt="">
+			<img class = "hidden bannerimg" src="images/banner03.jpg"  alt="">
+			<img class = "hidden bannerimg" src="images/banner04.jpg"  alt="">
+			<img class = "hidden bannerimg" src="images/banner05.jpg"  alt="">
+			<img class = "hidden bannerimg" src="images/banner06.jpg" alt="">
+		</div>
+		<div class="banner-main container clearfix">
+		    <!-- 左侧搜索框 -->
+			<div class="banner-search fl clearfix">
+				<div class="search-nav fl">
+					<a href="">机票</a>
+					<a href="">火车票</a>
+					<a href="">酒店</a>
+					<a href="">景点</a>
+					<a href="">周边游</a>
+					<a href="">国内游</a>
+					<a href="">出境游</a>
+					<a href="">邮轮</a>					
+				</div>
+				<!-- 搜索框主体 -->				
+				<div  class="search-info fl">
+					<!-- 机票 -->
+					<div id="tab-airticket">
+						<div class="search-info-title">
+							<a class="inland-ticket" href="" >国内机票</a>
+							<a class="internation-ticket" href="">国际 · 港澳台机票</a>
+						</div>
+						<!-- 行程类型 -->
+						<div class="journey">
+							<span class=journey-title>行程类型</span>
+							<input type="radio" name="journey"><span>&nbsp;单程</span>
+							<input class="journey-type" type="radio" name="journey"><span>&nbsp;往返</span>
+							<div class="liancheng">
+								<input class="journey-type" type="radio" name="journey"><span>&nbsp;联程</span>
+							</div>
+						</div>
+						<!-- 出发城市、到达城市 -->
+						<div class="changecity clearfix">
+							<div class="left fl">
+								<div>出发城市</div>
+								<div style="position: relative;">
+									<input class="text" type="text" value="城市名">
+									<div class="citytab hidden">
+										<h4>
+											热门城市
+											<span>（可直接选择城市或输入城市中文/拼音）</span>
+											<span class="closebtn"></span>
+										</h4>
+										<div class="citytab-info">
+											<ul class="clearfix">
+												<li class="hcity-title">热门城市</li>
+												<li>ABCDEF</li>
+												<li>GHJKLM</li>
+												<li>NPQRS</li>
+												<li>TWXYZ</li>
+											</ul>
+											<div class="hotcity">
+											</div>
+											<div class="a-zcity hidden"></div>
+											<div class="a-zcity hidden"></div>
+											<div class="a-zcity hidden"></div>
+											<div class="a-zcity hidden"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<em class="changebtn fl"></em>
+							<div class="right fr">
+								<div>到达城市</div>
+								<div style="position: relative;">
+									<input class="text" type="text" value="城市名">
+									<div class="citytab hidden">
+										<h4>
+											热门城市
+											<span>（可直接选择城市或输入城市中文/拼音）</span>
+											<span class="closebtn"></span>
+										</h4>
+										<div class="citytab-info">
+											<ul class="clearfix">
+												<li class="hcity-title">热门城市</li>
+												<li>ABCDEF</li>
+												<li>GHJKLM</li>
+												<li>NPQRS</li>
+												<li>TWXYZ</li>
+											</ul>
+											<div class="hotcity">
+											</div>
+											<div class="a-zcity hidden"></div>
+											<div class="a-zcity hidden"></div>
+											<div class="a-zcity hidden"></div>
+											<div class="a-zcity hidden"></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- 出发日期、返回日期 -->
+						<div class="star-return-date clearfix">
+							<div class="left fl">
+								<div>出发日期</div>
+								<div>
+									<input class="text" type="text" value="时间/日期">
+								</div>
+							</div>
+							<div class="right fr hidden">
+								<div>返回日期</div>
+								<div>
+									<input class="text" type="text" value="时间/日期">
+								</div>
+							</div>
+						</div>
+						<!-- 乘客类型、舱位等级 -->
+						<div class="passenger clearfix hidden">
+							<div class="left fl">
+								<div>乘客类型</div>
+								<div style="position: relative;">
+									<!-- <input class="text" type="text" value="1成人 0儿童"> -->
+									<div class="adult-child">
+										<span class="adultnum">1</span>
+										成人
+										<span class="childnum">0</span>
+										儿童
+									</div>
+									<div class="peoplenumber hidden">
+										<div class="adult-num">
+											成人数
+											<div class="setnum">
+												<a class="minus"></a>
+												<input class="adult-text" type="text" value="1">
+												<a class="add"></a>
+											</div>
+										</div>
+										<div class="adult-num">
+											儿童数
+											<div class="setnum">
+												<a class="minus"></a>
+												<input class="child-text" type="text" value="0">
+												<a class="add"></a>
+											</div>
+											<em>2-12岁</em>
+										</div>
+										<div class="peonumbtn">确定</div>
+									</div>
+								</div>
+							</div>
+							<div class="right fr">
+								<div>舱位等级</div>
+								<div>
+									<select name="" id="">
+										<option value="">经济/超级经济舱</option>
+										<option value="">公务舱/头等舱</option>
+										<option value="">公务舱</option>
+										<option value="">头等舱</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<!-- 搜索按钮 -->
+						<button>搜索</button>
+					</div>
+				
+				    <!-- 火车票 -->
+				    <div id="train-ticket" class="hidden">			
+						<!-- 出发城市、到达城市 -->
+						<div class="changecity clearfix">
+							<div class="left fl">
+								<div>出发城市</div>
+								<div>
+									<input class="text" type="text" value="城市名">
+								</div>
+							</div>
+							<div class="changebtn fl"></div>
+							<div class="right fr">
+								<div>到达城市</div>
+								<div>
+									<input class="text" type="text" value="城市名">
+								</div>
+							</div>
+						</div>
+						<!-- 出发日期-->
+						<div class="star-return-date clearfix">
+							<div class="left fl">
+								<div>出发日期</div>
+								<div>
+									<input class="text" type="text" value="时间/日期">
+								</div>
+							</div>
+						</div>
+						<!-- 只搜高铁/动车 -->
+						<div class="only-bullet-train">
+							<input type="checkbox">
+							只搜高铁/动车
+						</div>
+						<!-- 搜索按钮 -->
+						<button>搜索</button>
+					</div>
+					<!-- 酒店 -->
+					<div id="hotel" class="hotel clearfix hidden">
+						<div class="search-info-title">
+							<a class="inland-hotel" href="" >国内酒店</a>
+							<a class="internation-hotel" href="">国际 · 港澳台酒店</a>
+						</div>
+						<!-- 目的地 -->
+						<div class="bourn fr">
+							<span >目的地</span>&nbsp;			
+							<input class="middletext" type="text" value="曼谷">	
+						</div>
+						<!-- 入住日期 -->
+						<div class="start-date fr">
+							<span >入住日期</span>&nbsp;			
+							<input class="middletext" type="text" value="2018-07-25">	
+						</div>	
+						<!-- 离店日期 -->
+						<div class="leave-date fr">
+							<span >离店日期</span>&nbsp;			
+							<input class="middletext" type="text" value="2018-07-25">
+						</div>
+						<!-- 客房数 -->
+						<div class="room-count fr">
+							<span >客房数</span>&nbsp;
+							<select name="room-count" id="room-count">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+							</select>
+							<span >&nbsp;&nbsp;&nbsp;&nbsp;每间</span>&nbsp;
+							<input type="text" class="shorttext" value="2018-07-25">
+						</div>
+						<!-- 关键字搜索 -->
+						<div class="keyword fr">
+							<span >关键字</span>&nbsp;			
+							<input class="longtext " type="text" value="2018-07-25">
+						</div>
+						<!-- 搜索按钮 -->
+						<button>搜索</button>
+					</div>
+					<!-- 景点 -->
+					<div id="sights" class="clearfix hidden">
+						<div class="search-info-title">
+							<a class="title-sights" href="" >景点</a>
+							<a class="sights-hotel" href="">酒店+景点</a>
+							<a class="nearby-sights" href="" >周边跟团游</a>
+						</div>
+						<!-- 关键词搜索 -->
+						<div class="keyword fr">
+							<span >关键词</span>&nbsp;			
+							<input class="longtext" type="text" value="2018-07-25">
+						</div>
+						<!-- 搜索按钮 -->
+						<button>搜索</button>
+					</div>
+					<!-- 周边游 -->
+					<div id="circum-tour" class="hidden"></div>
+					<!-- 国内游 -->
+					<div id="inland-tour" class="hidden">
+						<div class="search-info-title">
+							<a class="" href="" >全部</a>
+							<a class="" href="">跟团游</a>
+							<a class="" href="" >自由行</a>
+						</div>
+						<!-- 出发地 -->
+						<div class="star-city fr">
+							<span >出发地</span>&nbsp;				
+							<input class="longtext" type="text" value="南京">	
+						</div>
+						<!-- 目的地 -->
+						<div class="bourn fr">
+							<span >出发地</span>&nbsp;				
+							<input class="longtext" type="text" value="南京">	
+						</div>
+						<!-- 搜索按钮 -->
+						<button>搜索</button>
+					</div>
+					<!-- 出境游 -->
+					<div id="exit-tour" class="hidden"></div>
+					<!-- 邮轮 -->
+					<div id="cruise" class="hidden"></div>
+				</div>
+			</div>
+			<!-- 右侧欢乐海岛游广告-->
+			<div class="banner-right fr">
+				<img src="images/gowatch.png" alt="">
+			</div>
+			<!-- 左右图片切换按钮 -->
+			<div class="banner-arr">
+				<!-- 左侧图片切换按钮 -->
+				<div class="left-btn"></div>
+				<!-- 右侧图片切换按钮 -->
+				<div class="right-btn"></div>
+			</div>
+			
+			<!-- 下方轮播按钮 -->
+			<ul class = "lunbobtn">
+				
+			</ul>
+		</div>
+	
+	</div>
+	<!-- 精选特惠 -->
+	<div id="choiceness" class="container">
+		<div class="tab-title">
+			<h2>精选特惠</h2>
+			<ul>
+				<li class="active">热门推荐</li>
+				<li>周边自由行</li>
+				<li>周边跟团</li>
+				<li>国内游</li>
+				<li>出境游</li>
+				<li>邮轮</li>				
+			</ul>
+		</div>		
+		<!-- 热门推荐 -->
+		<div class="choiceness-info clearfix show">
+				<ul>
+					<li class="big-pic"><img class="full" src="upload/jingxuantehui01.jpg" alt="">
+						<div class="intro-box">
+							<p class="text-cut">非凡巴厘岛5晚7日半自助游</p>
+							<em>
+								出境游
+								<i></i>
+								上海出发
+							</em>
+						</div>
+						<div class="big-pic-price">
+							<i>￥</i>
+							<em>7280</em>起
+						</div>
+					</li>
+					<li class="small-pic">
+						<div class="top">
+							<img class="full" src="upload/jingxuantehui011.jpg" alt="">
+							<div class="small-pic-price">
+								<i>￥</i>
+								<em>1999</em>起
+							</div>
+						</div>
+						<div class="bottom">
+							<p title="同程专线-非凡系列-新西兰南北岛11日品质游-暑期升级奥克兰天空塔登塔+赠送冰川温泉">同程专线-非凡系列-新西兰南北岛11日品质游-暑期升级奥克兰天空塔登塔+赠送冰川温泉</p>
+							<div>
+								<span class="fl">出境游</span>
+								<span class="fr">上海出发</span>
+							</div>
+						</div>
+					</li>
+					<li class="small-pic">
+						<div class="top">
+							<img class="full" src="upload/jingxuantehui012.jpg" alt="">
+							<div class="small-pic-price">
+								<i>￥</i>
+								<em>4399</em>起
+							</div>
+						</div>
+						<div class="bottom">
+							<p title="北海道经典5日4晚半自助游">北海道经典5日4晚半自助游</p>
+							<div>
+								<span class="fl">出境游</span>
+								<span class="fr">上海出发</span>
+							</div>
+						</div>
+					</li>
+					<li class="small-pic">
+						<div class="top">
+							<img class="full" src="upload/jingxuantehui013.jpg" alt="">
+							<div class="small-pic-price">
+								<i>￥</i>
+								<em>3999</em>起
+							</div>
+						</div>
+						<div class="bottom">
+							<p title="【诺唯真邮轮-喜悦号】2018年8月14日 上海-鹿儿岛-上海  4晚5日游">【诺唯真邮轮-喜悦号】2018年8月14日 上海-鹿儿岛-上海  4晚5日游</p>
+							<div>
+								<span class="fl">出境游</span>
+								<span class="fr">上海出发</span>
+							</div>
+						</div>
+					</li>
+					<li class="small-pic nomargin">
+						<div class="top">
+							<img class="full" src="upload/jingxuantehui014.jpg" alt="">
+							<div class="small-pic-price">
+								<i>￥</i>
+								<em>4599</em>起
+							</div>
+						</div>
+						<div class="bottom">
+							<p title="【丽星邮轮处女星号】2018年8月5日 上海-大阪-东京（横滨）-富士山（清水港）-鹿儿岛-上海">【丽星邮轮处女星号】2018年8月5日 上海-大阪-东京（横滨）-富士山（清水港）-鹿儿岛-上海</p>
+							<div>
+								<span class="fl">出境游</span>
+								<span class="fr">上海出发</span>
+							</div>
+						</div>
+					</li>
+					<li class="small-pic">
+						<div class="top">
+							<img class="full" src="upload/jingxuantehui015.jpg" alt="">
+							<div class="small-pic-price">
+								<i>￥</i>
+								<em>2610</em>起
+							</div>
+						</div>
+						<div class="bottom">
+							<p title="桂林+阳朔+游轮百里大漓江+龙脊梯田+银子岩+象鼻山+古东瀑布双飞5日跟团游">桂林+阳朔+游轮百里大漓江+龙脊梯田+银子岩+象鼻山+古东瀑布双飞5日跟团游</p>
+							<div>
+								<span class="fl">出境游</span>
+								<span class="fr">上海出发</span>
+							</div>
+						</div>
+					</li>
+					<li class="small-pic">
+						<div class="top">
+							<img class="full" src="upload/jingxuantehui016.jpg" alt="">
+							<div class="small-pic-price">
+								<i>￥</i>
+								<em>2903</em>起
+							</div>
+						</div>
+						<div class="bottom">
+							<p title="长沙+韶山+橘子洲+张家界国家森林公园+黄龙洞+天门山+玻璃栈道+凤凰古城双飞6日跟团游">长沙+韶山+橘子洲+张家界国家森林公园+黄龙洞+天门山+玻璃栈道+凤凰古城双飞6日跟团游</p>
+							<div>
+								<span class="fl">出境游</span>
+								<span class="fr">上海出发</span>
+							</div>
+						</div>
+					</li>
+					<li class="small-pic">
+						<div class="top">
+							<img class="full" src="upload/jingxuantehui017.jpg" alt="">
+							<div class="small-pic-price">
+								<i>￥</i>
+								<em>2966</em>起
+							</div>
+						</div>
+						<div class="bottom">
+							<p title="三亚+蜈支洲岛+猴岛+天堂森林公园+天涯海角+南山双飞5日跟团游">三亚+蜈支洲岛+猴岛+天堂森林公园+天涯海角+南山双飞5日跟团游</p>
+							<div>
+								<span class="fl">出境游</span>
+								<span class="fr">上海出发</span>
+							</div>
+						</div>
+					</li>
+					<li class="small-pic">
+						<div class="top">
+							<img class="full" src="upload/jingxuantehui018.jpg" alt="">
+							<div class="small-pic-price">
+								<i>￥</i>
+								<em>1124</em>起
+							</div>
+						</div>
+						<div class="bottom">
+							<p title="住上海柏思特酒店享儿童乐园免费迪士尼接送车游上海迪士尼乐园">住上海柏思特酒店享儿童乐园免费迪士尼接送车游上海迪士尼乐园</p>
+							<div>
+								<span class="fl">出境游</span>
+								<span class="fr">上海出发</span>
+							</div>
+						</div>
+					</li>
+				</ul>
+		</div>
+		<!-- 周边自由行 -->
+		<div class="choiceness-info clearfix hidden">
+			<ul>
+				<li class="big-pic"><img class="full" src="upload/jingxuantehui02.jpg" alt="">
+					<div class="intro-box">
+						<p class="text-cut">住上海玩具总动员酒店游上海迪士尼乐园含免费酒店至景区穿梭巴士</p>
+						<em>
+							周边游
+							<i></i>
+							上海出发
+						</em>
+					</div>
+					<div class="big-pic-price">
+						<i>￥</i>
+						<em>7280</em>起
+					</div>
+				</li>
+				<li class="small-pic">
+					<div class="top">
+						<img class="full" src="upload/jingxuantehui021.jpg" alt="">
+						<div class="small-pic-price">
+							<i>￥</i>
+							<em>1999</em>起
+						</div>
+					</div>
+					<div class="bottom">
+						<p title="游上海崇明东平国家森林公园住东平国家森林公园房车营地">游上海崇明东平国家森林公园住东平国家森林公园房车营地</p>
+						<div>
+							<span class="fl">周边游</span>
+							<span class="fr">上海出发</span>
+						</div>
+					</div>
+				</li>
+				<li class="small-pic">
+					<div class="top">
+						<img class="full" src="upload/jingxuantehui022.jpg" alt="">
+						<div class="small-pic-price">
+							<i>￥</i>
+							<em>4399</em>起
+						</div>
+					</div>
+					<div class="bottom">
+						<p>南京玄武酒店</p>
+						<div>
+							<span class="fl">出境游</span>
+							<span class="fr">上海出发</span>
+						</div>
+					</div>
+				</li>
+				<li class="small-pic">
+					<div class="top">
+						<img class="full" src="upload/jingxuantehui023.jpg" alt="">
+						<div class="small-pic-price">
+							<i>￥</i>
+							<em>3999</em>起
+						</div>
+					</div>
+					<div class="bottom">
+						<p>巴厘岛4晚5或6天半自助游</p>
+						<div>
+							<span class="fl">出境游</span>
+							<span class="fr">上海出发</span>
+						</div>
+					</div>
+				</li>
+				<li class="small-pic nomargin">
+					<div class="top">
+						<img class="full" src="upload/jingxuantehui024.jpg" alt="">
+						<div class="small-pic-price">
+							<i>￥</i>
+							<em>4599</em>起
+						</div>
+					</div>
+					<div class="bottom">
+						<p>巴厘岛4晚5或6天半自助游</p>
+						<div>
+							<span class="fl">出境游</span>
+							<span class="fr">上海出发</span>
+						</div>
+					</div>
+				</li>
+				<li class="small-pic">
+					<div class="top">
+						<img class="full" src="upload/jingxuantehui025.jpg" alt="">
+						<div class="small-pic-price">
+							<i>￥</i>
+							<em>2610</em>起
+						</div>
+					</div>
+					<div class="bottom">
+						<p>巴厘岛4晚5或6天半自助游</p>
+						<div>
+							<span class="fl">出境游</span>
+							<span class="fr">上海出发</span>
+						</div>
+					</div>
+				</li>
+				<li class="small-pic">
+					<div class="top">
+						<img class="full" src="upload/jingxuantehui026.jpg" alt="">
+						<div class="small-pic-price">
+							<i>￥</i>
+							<em>2903</em>起
+						</div>
+					</div>
+					<div class="bottom">
+						<p>巴厘岛4晚5或6天半自助游</p>
+						<div>
+							<span class="fl">出境游</span>
+							<span class="fr">上海出发</span>
+						</div>
+					</div>
+				</li>
+				<li class="small-pic">
+					<div class="top">
+						<img class="full" src="upload/jingxuantehui027.jpg" alt="">
+						<div class="small-pic-price">
+							<i>￥</i>
+							<em>2966</em>起
+						</div>
+					</div>
+					<div class="bottom">
+						<p>巴厘岛4晚5或6天半自助游</p>
+						<div>
+							<span class="fl">出境游</span>
+							<span class="fr">上海出发</span>
+						</div>
+					</div>
+				</li>
+				<li class="small-pic">
+					<div class="top">
+						<img class="full" src="upload/jingxuantehui028.jpg" alt="">
+						<div class="small-pic-price">
+							<i>￥</i>
+							<em>1124</em>起
+						</div>
+					</div>
+					<div class="bottom">
+						<p>巴厘岛4晚5或6天半自助游</p>
+						<div>
+							<span class="fl">出境游</span>
+							<span class="fr">上海出发</span>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<!-- 周边跟团 -->
+		<div class="choiceness-info clearfix hidden">
+			<ul>
+				<li class="big-pic"><img class="full" src="upload/jingxuantehui01.jpg" alt="">
+					<div class="intro-box">
+						<p class="text-cut">非凡巴厘岛5晚7日半自助游</p>
+						<em>
+							出境游
+							<i></i>
+							上海出发
+						</em>
+					</div>
+					<div class="big-pic-price">
+						<i>￥</i>
+						<em>7280</em>起
+					</div>
+				</li>
+				<li class="small-pic">
+					<div class="top">
+						<img class="full" src="upload/jingxuantehui011.jpg" alt="">
+						<div class="small-pic-price">
+							<i>￥</i>
+							<em>1999</em>起
+						</div>
+					</div>
+					<div class="bottom">
+						<p title="同程专线-非凡系列-新西兰南北岛11日品质游-暑期升级奥克兰天空塔登塔+赠送冰川温泉">同程专线-非凡系列-新西兰南北岛11日品质游-暑期升级奥克兰天空塔登塔+赠送冰川温泉</p>
+						<div>
+							<span class="fl">出境游</span>
+							<span class="fr">上海出发</span>
+						</div>
+					</div>
+				</li>
+				<li class="small-pic">
+					<div class="top">
+						<img class="full" src="upload/jingxuantehui012.jpg" alt="">
+						<div class="small-pic-price">
+							<i>￥</i>
+							<em>4399</em>起
+						</div>
+					</div>
+					<div class="bottom">
+						<p title="北海道经典5日4晚半自助游">北海道经典5日4晚半自助游</p>
+						<div>
+							<span class="fl">出境游</span>
+							<span class="fr">上海出发</span>
+						</div>
+					</div>
+				</li>
+				<li class="small-pic">
+					<div class="top">
+						<img class="full" src="upload/jingxuantehui013.jpg" alt="">
+						<div class="small-pic-price">
+							<i>￥</i>
+							<em>3999</em>起
+						</div>
+					</div>
+					<div class="bottom">
+						<p title="【诺唯真邮轮-喜悦号】2018年8月14日 上海-鹿儿岛-上海  4晚5日游">【诺唯真邮轮-喜悦号】2018年8月14日 上海-鹿儿岛-上海  4晚5日游</p>
+						<div>
+							<span class="fl">出境游</span>
+							<span class="fr">上海出发</span>
+						</div>
+					</div>
+				</li>
+				<li class="small-pic nomargin">
+					<div class="top">
+						<img class="full" src="upload/jingxuantehui014.jpg" alt="">
+						<div class="small-pic-price">
+							<i>￥</i>
+							<em>4599</em>起
+						</div>
+					</div>
+					<div class="bottom">
+						<p title="【丽星邮轮处女星号】2018年8月5日 上海-大阪-东京（横滨）-富士山（清水港）-鹿儿岛-上海">【丽星邮轮处女星号】2018年8月5日 上海-大阪-东京（横滨）-富士山（清水港）-鹿儿岛-上海</p>
+						<div>
+							<span class="fl">出境游</span>
+							<span class="fr">上海出发</span>
+						</div>
+					</div>
+				</li>
+				<li class="small-pic">
+					<div class="top">
+						<img class="full" src="upload/jingxuantehui015.jpg" alt="">
+						<div class="small-pic-price">
+							<i>￥</i>
+							<em>2610</em>起
+						</div>
+					</div>
+					<div class="bottom">
+						<p title="桂林+阳朔+游轮百里大漓江+龙脊梯田+银子岩+象鼻山+古东瀑布双飞5日跟团游">桂林+阳朔+游轮百里大漓江+龙脊梯田+银子岩+象鼻山+古东瀑布双飞5日跟团游</p>
+						<div>
+							<span class="fl">出境游</span>
+							<span class="fr">上海出发</span>
+						</div>
+					</div>
+				</li>
+				<li class="small-pic">
+					<div class="top">
+						<img class="full" src="upload/jingxuantehui016.jpg" alt="">
+						<div class="small-pic-price">
+							<i>￥</i>
+							<em>2903</em>起
+						</div>
+					</div>
+					<div class="bottom">
+						<p title="长沙+韶山+橘子洲+张家界国家森林公园+黄龙洞+天门山+玻璃栈道+凤凰古城双飞6日跟团游">长沙+韶山+橘子洲+张家界国家森林公园+黄龙洞+天门山+玻璃栈道+凤凰古城双飞6日跟团游</p>
+						<div>
+							<span class="fl">出境游</span>
+							<span class="fr">上海出发</span>
+						</div>
+					</div>
+				</li>
+				<li class="small-pic">
+					<div class="top">
+						<img class="full" src="upload/jingxuantehui017.jpg" alt="">
+						<div class="small-pic-price">
+							<i>￥</i>
+							<em>2966</em>起
+						</div>
+					</div>
+					<div class="bottom">
+						<p title="三亚+蜈支洲岛+猴岛+天堂森林公园+天涯海角+南山双飞5日跟团游">三亚+蜈支洲岛+猴岛+天堂森林公园+天涯海角+南山双飞5日跟团游</p>
+						<div>
+							<span class="fl">出境游</span>
+							<span class="fr">上海出发</span>
+						</div>
+					</div>
+				</li>
+				<li class="small-pic">
+					<div class="top">
+						<img class="full" src="upload/jingxuantehui018.jpg" alt="">
+						<div class="small-pic-price">
+							<i>￥</i>
+							<em>1124</em>起
+						</div>
+					</div>
+					<div class="bottom">
+						<p title="住上海柏思特酒店享儿童乐园免费迪士尼接送车游上海迪士尼乐园">住上海柏思特酒店享儿童乐园免费迪士尼接送车游上海迪士尼乐园</p>
+						<div>
+							<span class="fl">出境游</span>
+							<span class="fr">上海出发</span>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<!-- 国内游 -->
+		<div class="choiceness-info clearfix hidden">
+			<ul>
+				<li class="big-pic"><img class="full" src="upload/jingxuantehui02.jpg" alt="">
+					<div class="intro-box">
+						<p class="text-cut">住上海玩具总动员酒店游上海迪士尼乐园含免费酒店至景区穿梭巴士</p>
+						<em>
+							周边游
+							<i></i>
+							上海出发
+						</em>
+					</div>
+					<div class="big-pic-price">
+						<i>￥</i>
+						<em>7280</em>起
+					</div>
+				</li>
+				<li class="small-pic">
+					<div class="top">
+						<img class="full" src="upload/jingxuantehui021.jpg" alt="">
+						<div class="small-pic-price">
+							<i>￥</i>
+							<em>1999</em>起
+						</div>
+					</div>
+					<div class="bottom">
+						<p title="游上海崇明东平国家森林公园住东平国家森林公园房车营地">游上海崇明东平国家森林公园住东平国家森林公园房车营地</p>
+						<div>
+							<span class="fl">周边游</span>
+							<span class="fr">上海出发</span>
+						</div>
+					</div>
+				</li>
+				<li class="small-pic">
+					<div class="top">
+						<img class="full" src="upload/jingxuantehui022.jpg" alt="">
+						<div class="small-pic-price">
+							<i>￥</i>
+							<em>4399</em>起
+						</div>
+					</div>
+					<div class="bottom">
+						<p>南京玄武酒店</p>
+						<div>
+							<span class="fl">出境游</span>
+							<span class="fr">上海出发</span>
+						</div>
+					</div>
+				</li>
+				<li class="small-pic">
+					<div class="top">
+						<img class="full" src="upload/jingxuantehui023.jpg" alt="">
+						<div class="small-pic-price">
+							<i>￥</i>
+							<em>3999</em>起
+						</div>
+					</div>
+					<div class="bottom">
+						<p>巴厘岛4晚5或6天半自助游</p>
+						<div>
+							<span class="fl">出境游</span>
+							<span class="fr">上海出发</span>
+						</div>
+					</div>
+				</li>
+				<li class="small-pic nomargin">
+					<div class="top">
+						<img class="full" src="upload/jingxuantehui024.jpg" alt="">
+						<div class="small-pic-price">
+							<i>￥</i>
+							<em>4599</em>起
+						</div>
+					</div>
+					<div class="bottom">
+						<p>巴厘岛4晚5或6天半自助游</p>
+						<div>
+							<span class="fl">出境游</span>
+							<span class="fr">上海出发</span>
+						</div>
+					</div>
+				</li>
+				<li class="small-pic">
+					<div class="top">
+						<img class="full" src="upload/jingxuantehui025.jpg" alt="">
+						<div class="small-pic-price">
+							<i>￥</i>
+							<em>2610</em>起
+						</div>
+					</div>
+					<div class="bottom">
+						<p>巴厘岛4晚5或6天半自助游</p>
+						<div>
+							<span class="fl">出境游</span>
+							<span class="fr">上海出发</span>
+						</div>
+					</div>
+				</li>
+				<li class="small-pic">
+					<div class="top">
+						<img class="full" src="upload/jingxuantehui026.jpg" alt="">
+						<div class="small-pic-price">
+							<i>￥</i>
+							<em>2903</em>起
+						</div>
+					</div>
+					<div class="bottom">
+						<p>巴厘岛4晚5或6天半自助游</p>
+						<div>
+							<span class="fl">出境游</span>
+							<span class="fr">上海出发</span>
+						</div>
+					</div>
+				</li>
+				<li class="small-pic">
+					<div class="top">
+						<img class="full" src="upload/jingxuantehui027.jpg" alt="">
+						<div class="small-pic-price">
+							<i>￥</i>
+							<em>2966</em>起
+						</div>
+					</div>
+					<div class="bottom">
+						<p>巴厘岛4晚5或6天半自助游</p>
+						<div>
+							<span class="fl">出境游</span>
+							<span class="fr">上海出发</span>
+						</div>
+					</div>
+				</li>
+				<li class="small-pic">
+					<div class="top">
+						<img class="full" src="upload/jingxuantehui028.jpg" alt="">
+						<div class="small-pic-price">
+							<i>￥</i>
+							<em>1124</em>起
+						</div>
+					</div>
+					<div class="bottom">
+						<p>巴厘岛4晚5或6天半自助游</p>
+						<div>
+							<span class="fl">出境游</span>
+							<span class="fr">上海出发</span>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<!-- 出境游 -->
+		<div class="choiceness-info clearfix hidden">
+			<ul>
+				<li class="big-pic"><img class="full" src="upload/jingxuantehui01.jpg" alt="">
+					<div class="intro-box">
+						<p class="text-cut">非凡巴厘岛5晚7日半自助游</p>
+						<em>
+							出境游
+							<i></i>
+							上海出发
+						</em>
+					</div>
+					<div class="big-pic-price">
+						<i>￥</i>
+						<em>7280</em>起
+					</div>
+				</li>
+				<li class="small-pic">
+					<div class="top">
+						<img class="full" src="upload/jingxuantehui011.jpg" alt="">
+						<div class="small-pic-price">
+							<i>￥</i>
+							<em>1999</em>起
+						</div>
+					</div>
+					<div class="bottom">
+						<p title="同程专线-非凡系列-新西兰南北岛11日品质游-暑期升级奥克兰天空塔登塔+赠送冰川温泉">同程专线-非凡系列-新西兰南北岛11日品质游-暑期升级奥克兰天空塔登塔+赠送冰川温泉</p>
+						<div>
+							<span class="fl">出境游</span>
+							<span class="fr">上海出发</span>
+						</div>
+					</div>
+				</li>
+				<li class="small-pic">
+					<div class="top">
+						<img class="full" src="upload/jingxuantehui012.jpg" alt="">
+						<div class="small-pic-price">
+							<i>￥</i>
+							<em>4399</em>起
+						</div>
+					</div>
+					<div class="bottom">
+						<p title="北海道经典5日4晚半自助游">北海道经典5日4晚半自助游</p>
+						<div>
+							<span class="fl">出境游</span>
+							<span class="fr">上海出发</span>
+						</div>
+					</div>
+				</li>
+				<li class="small-pic">
+					<div class="top">
+						<img class="full" src="upload/jingxuantehui013.jpg" alt="">
+						<div class="small-pic-price">
+							<i>￥</i>
+							<em>3999</em>起
+						</div>
+					</div>
+					<div class="bottom">
+						<p title="【诺唯真邮轮-喜悦号】2018年8月14日 上海-鹿儿岛-上海  4晚5日游">【诺唯真邮轮-喜悦号】2018年8月14日 上海-鹿儿岛-上海  4晚5日游</p>
+						<div>
+							<span class="fl">出境游</span>
+							<span class="fr">上海出发</span>
+						</div>
+					</div>
+				</li>
+				<li class="small-pic nomargin">
+					<div class="top">
+						<img class="full" src="upload/jingxuantehui014.jpg" alt="">
+						<div class="small-pic-price">
+							<i>￥</i>
+							<em>4599</em>起
+						</div>
+					</div>
+					<div class="bottom">
+						<p title="【丽星邮轮处女星号】2018年8月5日 上海-大阪-东京（横滨）-富士山（清水港）-鹿儿岛-上海">【丽星邮轮处女星号】2018年8月5日 上海-大阪-东京（横滨）-富士山（清水港）-鹿儿岛-上海</p>
+						<div>
+							<span class="fl">出境游</span>
+							<span class="fr">上海出发</span>
+						</div>
+					</div>
+				</li>
+				<li class="small-pic">
+					<div class="top">
+						<img class="full" src="upload/jingxuantehui015.jpg" alt="">
+						<div class="small-pic-price">
+							<i>￥</i>
+							<em>2610</em>起
+						</div>
+					</div>
+					<div class="bottom">
+						<p title="桂林+阳朔+游轮百里大漓江+龙脊梯田+银子岩+象鼻山+古东瀑布双飞5日跟团游">桂林+阳朔+游轮百里大漓江+龙脊梯田+银子岩+象鼻山+古东瀑布双飞5日跟团游</p>
+						<div>
+							<span class="fl">出境游</span>
+							<span class="fr">上海出发</span>
+						</div>
+					</div>
+				</li>
+				<li class="small-pic">
+					<div class="top">
+						<img class="full" src="upload/jingxuantehui016.jpg" alt="">
+						<div class="small-pic-price">
+							<i>￥</i>
+							<em>2903</em>起
+						</div>
+					</div>
+					<div class="bottom">
+						<p title="长沙+韶山+橘子洲+张家界国家森林公园+黄龙洞+天门山+玻璃栈道+凤凰古城双飞6日跟团游">长沙+韶山+橘子洲+张家界国家森林公园+黄龙洞+天门山+玻璃栈道+凤凰古城双飞6日跟团游</p>
+						<div>
+							<span class="fl">出境游</span>
+							<span class="fr">上海出发</span>
+						</div>
+					</div>
+				</li>
+				<li class="small-pic">
+					<div class="top">
+						<img class="full" src="upload/jingxuantehui017.jpg" alt="">
+						<div class="small-pic-price">
+							<i>￥</i>
+							<em>2966</em>起
+						</div>
+					</div>
+					<div class="bottom">
+						<p title="三亚+蜈支洲岛+猴岛+天堂森林公园+天涯海角+南山双飞5日跟团游">三亚+蜈支洲岛+猴岛+天堂森林公园+天涯海角+南山双飞5日跟团游</p>
+						<div>
+							<span class="fl">出境游</span>
+							<span class="fr">上海出发</span>
+						</div>
+					</div>
+				</li>
+				<li class="small-pic">
+					<div class="top">
+						<img class="full" src="upload/jingxuantehui018.jpg" alt="">
+						<div class="small-pic-price">
+							<i>￥</i>
+							<em>1124</em>起
+						</div>
+					</div>
+					<div class="bottom">
+						<p title="住上海柏思特酒店享儿童乐园免费迪士尼接送车游上海迪士尼乐园">住上海柏思特酒店享儿童乐园免费迪士尼接送车游上海迪士尼乐园</p>
+						<div>
+							<span class="fl">出境游</span>
+							<span class="fr">上海出发</span>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<!-- 邮轮 -->
+		<div class="choiceness-info clearfix hidden">
+			<ul>
+				<li class="big-pic"><img class="full" src="upload/jingxuantehui02.jpg" alt="">
+					<div class="intro-box">
+						<p class="text-cut">住上海玩具总动员酒店游上海迪士尼乐园含免费酒店至景区穿梭巴士</p>
+						<em>
+							周边游
+							<i></i>
+							上海出发
+						</em>
+					</div>
+					<div class="big-pic-price">
+						<i>￥</i>
+						<em>7280</em>起
+					</div>
+				</li>
+				<li class="small-pic">
+					<div class="top">
+						<img class="full" src="upload/jingxuantehui021.jpg" alt="">
+						<div class="small-pic-price">
+							<i>￥</i>
+							<em>1999</em>起
+						</div>
+					</div>
+					<div class="bottom">
+						<p title="游上海崇明东平国家森林公园住东平国家森林公园房车营地">游上海崇明东平国家森林公园住东平国家森林公园房车营地</p>
+						<div>
+							<span class="fl">周边游</span>
+							<span class="fr">上海出发</span>
+						</div>
+					</div>
+				</li>
+				<li class="small-pic">
+					<div class="top">
+						<img class="full" src="upload/jingxuantehui022.jpg" alt="">
+						<div class="small-pic-price">
+							<i>￥</i>
+							<em>4399</em>起
+						</div>
+					</div>
+					<div class="bottom">
+						<p>南京玄武酒店</p>
+						<div>
+							<span class="fl">出境游</span>
+							<span class="fr">上海出发</span>
+						</div>
+					</div>
+				</li>
+				<li class="small-pic">
+					<div class="top">
+						<img class="full" src="upload/jingxuantehui023.jpg" alt="">
+						<div class="small-pic-price">
+							<i>￥</i>
+							<em>3999</em>起
+						</div>
+					</div>
+					<div class="bottom">
+						<p>巴厘岛4晚5或6天半自助游</p>
+						<div>
+							<span class="fl">出境游</span>
+							<span class="fr">上海出发</span>
+						</div>
+					</div>
+				</li>
+				<li class="small-pic nomargin">
+					<div class="top">
+						<img class="full" src="upload/jingxuantehui024.jpg" alt="">
+						<div class="small-pic-price">
+							<i>￥</i>
+							<em>4599</em>起
+						</div>
+					</div>
+					<div class="bottom">
+						<p>巴厘岛4晚5或6天半自助游</p>
+						<div>
+							<span class="fl">出境游</span>
+							<span class="fr">上海出发</span>
+						</div>
+					</div>
+				</li>
+				<li class="small-pic">
+					<div class="top">
+						<img class="full" src="upload/jingxuantehui025.jpg" alt="">
+						<div class="small-pic-price">
+							<i>￥</i>
+							<em>2610</em>起
+						</div>
+					</div>
+					<div class="bottom">
+						<p>巴厘岛4晚5或6天半自助游</p>
+						<div>
+							<span class="fl">出境游</span>
+							<span class="fr">上海出发</span>
+						</div>
+					</div>
+				</li>
+				<li class="small-pic">
+					<div class="top">
+						<img class="full" src="upload/jingxuantehui026.jpg" alt="">
+						<div class="small-pic-price">
+							<i>￥</i>
+							<em>2903</em>起
+						</div>
+					</div>
+					<div class="bottom">
+						<p>巴厘岛4晚5或6天半自助游</p>
+						<div>
+							<span class="fl">出境游</span>
+							<span class="fr">上海出发</span>
+						</div>
+					</div>
+				</li>
+				<li class="small-pic">
+					<div class="top">
+						<img class="full" src="upload/jingxuantehui027.jpg" alt="">
+						<div class="small-pic-price">
+							<i>￥</i>
+							<em>2966</em>起
+						</div>
+					</div>
+					<div class="bottom">
+						<p>巴厘岛4晚5或6天半自助游</p>
+						<div>
+							<span class="fl">出境游</span>
+							<span class="fr">上海出发</span>
+						</div>
+					</div>
+				</li>
+				<li class="small-pic">
+					<div class="top">
+						<img class="full" src="upload/jingxuantehui028.jpg" alt="">
+						<div class="small-pic-price">
+							<i>￥</i>
+							<em>1124</em>起
+						</div>
+					</div>
+					<div class="bottom">
+						<p>巴厘岛4晚5或6天半自助游</p>
+						<div>
+							<span class="fl">出境游</span>
+							<span class="fr">上海出发</span>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		
+	</div>
+	<!-- 住酒店 -->
+	<div id="hotel-box" class="container">
+		<div class="tab-title">
+			<h2>住酒店</h2>
+			<ul >
+				<li class="active">上海</li>
+				<li>苏州</li>
+				<li>嘉兴</li>
+				<li>南通</li>
+				<li>无锡</li>
+				<li>湖州</li>
+				<li>舟山</li>
+				<li>宁波</li>
+				<li>国际 · 港澳台酒店</li>	
+			</ul>
+		</div>
+		<div class="hotel-info clearfix">
+			<!-- 左侧区域 -->
+			<div class="hotel-left">
+			    <!-- 上海 -->
+				<div class="hotel-left-main show fl">
+					<ul>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel011.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="24K国际连锁酒店(上海南京东路步行街店)">24K国际连锁酒店(上海南京东路步行街店)</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel012.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="上海徐汇瑞峰酒店">上海徐汇瑞峰酒店</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel013.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="上海麦新格国际酒店(周浦万达迪士尼店)">上海麦新格国际酒店(周浦万达迪士尼店)</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel014.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="上海敏祥精品酒店(浦东机场店)">上海敏祥精品酒店(浦东机场店)</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel015.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="柏思特酒店(上海国际旅游度假区浦东机场店)">柏思特酒店(上海国际旅游度假区浦东机场店)</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel016.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="浦江精选酒店(上海虹桥枢纽会展中心店)">浦江精选酒店(上海虹桥枢纽会展中心店)</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel017.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="上海华美国际酒店">上海华美国际酒店</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel018.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="上海新光迎宾馆">上海新光迎宾馆</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!-- 苏州 -->
+				<div class="hotel-left-main hidden fl">
+					<ul>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel021.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="苏州雅都大酒店">苏州雅都大酒店</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel022.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="苏州香雪海饭店">苏州香雪海饭店</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel023.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="香雪海饭店(苏州新区乐园店)">香雪海饭店(苏州新区乐园店)</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel024.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="格林豪泰酒店(苏州观前街乐桥地铁站店)">格林豪泰酒店(苏州观前街乐桥地铁站店)</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel025.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="苏州太湖雪商务酒店(观前街拙政园店)">苏州太湖雪商务酒店(观前街拙政园店)</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel026.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="瑞廷度假酒店(苏州观前拙政园店)">瑞廷度假酒店(苏州观前拙政园店)</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel027.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="苏州维景国际大酒店">苏州维景国际大酒店</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel028.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="苏州金鸡湖新罗酒店">苏州金鸡湖新罗酒店</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!-- 嘉兴 -->
+				<div class="hotel-left-main hidden fl">
+					<ul>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel011.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="24K国际连锁酒店(上海南京东路步行街店)">24K国际连锁酒店(上海南京东路步行街店)</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel012.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="上海徐汇瑞峰酒店">上海徐汇瑞峰酒店</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel013.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="上海麦新格国际酒店(周浦万达迪士尼店)">上海麦新格国际酒店(周浦万达迪士尼店)</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel014.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="上海敏祥精品酒店(浦东机场店)">上海敏祥精品酒店(浦东机场店)</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel015.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="柏思特酒店(上海国际旅游度假区浦东机场店)">柏思特酒店(上海国际旅游度假区浦东机场店)</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel016.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="浦江精选酒店(上海虹桥枢纽会展中心店)">浦江精选酒店(上海虹桥枢纽会展中心店)</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel017.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="上海华美国际酒店">上海华美国际酒店</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel018.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="上海新光迎宾馆">上海新光迎宾馆</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!-- 南通 -->
+				<div class="hotel-left-main hidden fl">
+					<ul>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel021.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="苏州雅都大酒店">苏州雅都大酒店</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel022.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="苏州香雪海饭店">苏州香雪海饭店</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel023.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="香雪海饭店(苏州新区乐园店)">香雪海饭店(苏州新区乐园店)</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel024.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="格林豪泰酒店(苏州观前街乐桥地铁站店)">格林豪泰酒店(苏州观前街乐桥地铁站店)</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel025.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="苏州太湖雪商务酒店(观前街拙政园店)">苏州太湖雪商务酒店(观前街拙政园店)</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel026.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="瑞廷度假酒店(苏州观前拙政园店)">瑞廷度假酒店(苏州观前拙政园店)</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel027.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="苏州维景国际大酒店">苏州维景国际大酒店</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel028.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="苏州金鸡湖新罗酒店">苏州金鸡湖新罗酒店</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!-- 无锡 -->
+				<div class="hotel-left-main hidden fl">
+					<ul>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel011.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="24K国际连锁酒店(上海南京东路步行街店)">24K国际连锁酒店(上海南京东路步行街店)</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel012.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="上海徐汇瑞峰酒店">上海徐汇瑞峰酒店</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel013.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="上海麦新格国际酒店(周浦万达迪士尼店)">上海麦新格国际酒店(周浦万达迪士尼店)</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel014.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="上海敏祥精品酒店(浦东机场店)">上海敏祥精品酒店(浦东机场店)</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel015.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="柏思特酒店(上海国际旅游度假区浦东机场店)">柏思特酒店(上海国际旅游度假区浦东机场店)</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel016.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="浦江精选酒店(上海虹桥枢纽会展中心店)">浦江精选酒店(上海虹桥枢纽会展中心店)</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel017.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="上海华美国际酒店">上海华美国际酒店</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel018.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="上海新光迎宾馆">上海新光迎宾馆</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!-- 湖州 -->
+				<div class="hotel-left-main hidden fl">
+					<ul>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel021.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="苏州雅都大酒店">苏州雅都大酒店</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel022.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="苏州香雪海饭店">苏州香雪海饭店</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel023.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="香雪海饭店(苏州新区乐园店)">香雪海饭店(苏州新区乐园店)</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel024.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="格林豪泰酒店(苏州观前街乐桥地铁站店)">格林豪泰酒店(苏州观前街乐桥地铁站店)</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel025.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="苏州太湖雪商务酒店(观前街拙政园店)">苏州太湖雪商务酒店(观前街拙政园店)</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel026.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="瑞廷度假酒店(苏州观前拙政园店)">瑞廷度假酒店(苏州观前拙政园店)</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel027.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="苏州维景国际大酒店">苏州维景国际大酒店</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel028.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="苏州金鸡湖新罗酒店">苏州金鸡湖新罗酒店</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!-- 舟山 -->
+				<div class="hotel-left-main hidden fl">
+					<ul>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel011.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="24K国际连锁酒店(上海南京东路步行街店)">24K国际连锁酒店(上海南京东路步行街店)</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel012.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="上海徐汇瑞峰酒店">上海徐汇瑞峰酒店</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel013.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="上海麦新格国际酒店(周浦万达迪士尼店)">上海麦新格国际酒店(周浦万达迪士尼店)</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel014.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="上海敏祥精品酒店(浦东机场店)">上海敏祥精品酒店(浦东机场店)</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel015.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="柏思特酒店(上海国际旅游度假区浦东机场店)">柏思特酒店(上海国际旅游度假区浦东机场店)</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel016.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="浦江精选酒店(上海虹桥枢纽会展中心店)">浦江精选酒店(上海虹桥枢纽会展中心店)</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel017.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="上海华美国际酒店">上海华美国际酒店</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel018.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="上海新光迎宾馆">上海新光迎宾馆</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!-- 宁波 -->
+				<div class="hotel-left-main hidden fl">
+					<ul>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel021.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="苏州雅都大酒店">苏州雅都大酒店</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel022.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="苏州香雪海饭店">苏州香雪海饭店</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel023.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="香雪海饭店(苏州新区乐园店)">香雪海饭店(苏州新区乐园店)</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel024.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="格林豪泰酒店(苏州观前街乐桥地铁站店)">格林豪泰酒店(苏州观前街乐桥地铁站店)</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel025.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="苏州太湖雪商务酒店(观前街拙政园店)">苏州太湖雪商务酒店(观前街拙政园店)</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel026.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="瑞廷度假酒店(苏州观前拙政园店)">瑞廷度假酒店(苏州观前拙政园店)</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel027.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="苏州维景国际大酒店">苏州维景国际大酒店</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+						<li class="normal">
+							<div class="top"><img class="full" src="upload/hotel028.jpg" alt=""></div>
+							<div class="bottom">
+								<p title="苏州金鸡湖新罗酒店">苏州金鸡湖新罗酒店</p>
+								<div>
+									<span class="fl">客栈民宿</span>
+									<span class="fr">
+										<b>¥</b>
+										<i>296</i>
+											起
+									</span>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!-- 国际 · 港澳台酒店 -->
+				<div class="hotel-left-main hidden fl">
+					<ul>
+						<li class="hotel-internation">
+							<img class="full" src="upload/hotel091.jpg" alt="">	
+							<div class="h-i-box">
+								<p>香港</p>
+								<span>圆迪士尼童话梦</span>
+							</div>
+						</li>
+						<li class="hotel-internation">
+							<img class="full" src="upload/hotel092.jpg" alt="">	
+							<div class="h-i-box">
+								<p>清迈</p>
+								<span>北国玫瑰之都</span>
+							</div>	
+						</li>
+						<li class="hotel-internation">
+							<img class="full" src="upload/hotel093.jpg" alt="">
+							<div class="h-i-box">
+								<p>冲绳</p>
+								<span>花样海边玩法</span>
+							</div>	
+						</li>
+						<li class="hotel-internation">
+							<img class="full" src="upload/hotel094.jpg" alt="">
+							<div class="h-i-box">
+								<p>苏梅岛</p>
+								<span>纯净自然的海岛</span>
+							</div>		
+						</li>
+						<li class="hotel-internation">
+							<img class="full" src="upload/hotel095.jpg" alt="">	
+							<div class="h-i-box">
+								<p>芭堤雅</p>
+								<span>东南亚不夜城</span>
+							</div>
+						</li>
+						<li class="hotel-internation">
+							<img class="full" src="upload/hotel096.jpg" alt="">	
+							<div class="h-i-box">
+								<p>新加坡</p>
+								<span>夏天欣赏百花盛开</span>
+							</div>
+						</li>
+						<li class="hotel-internation">
+							<img class="full" src="upload/hotel097.jpg" alt="">	
+							<div class="h-i-box">
+								<p>迪拜</p>
+								<span>石油大国</span>
+							</div>
+						</li>
+						<li class="hotel-internation">
+							<img class="full" src="upload/hotel098.jpg" alt="">	
+							<div class="h-i-box">
+								<p>东京</p>
+								<span>霓虹下的怀旧地</span>
+							</div>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+			
+			
+			<!-- 右侧区域 -->
+			<div class="hotel-right  fr">
+				<p class="hotel-right-title">热门商圈</p>
+				<ul class="clearfix">
+					<li class="odd-li">
+						江宁开发区
+						<em></em>
+					</li>
+					<li class="text-cut">新街口地区（市中心）</li>
+					<li class="odd-li">
+						夫子庙地区
+						<em></em>
+					</li>
+					<li class="text-cut">雨花台（高铁南站）区</li>
+					<li class="odd-li">
+						玄武湖湖南路地区
+						<em></em>
+					</li>
+					<li class="text-cut">山西路地区</li>
+					<li class="odd-li">
+						火车站地区
+						<em></em>
+					</li>
+					<li class="text-cut">河西地区</li>
+				</ul>
+				<div class="more-hotel clearfix">
+					<div class="m-h-left fl"><img src="images/m-h-left.png" alt=""></div>
+					<div class="m-h-right fl">
+						<p>国内更多酒店</p>
+						<span>超值特惠</span>
+					</div>
+				</div>
+				<div class="more-hotel clearfix">
+					<div class="m-h-left fl"><img src="images/m-h-left1.png" alt=""></div>
+					<div class="m-h-right fl">
+						<p>民宿客栈</p>
+						<span>品质住宿</span>
+					</div>
+				</div>
+			</div>
+			<div class="hotel-right-small hidden fr"></div>			
+		</div>
+	</div>	
+	<!-- 玩景点 -->
+	<div id="scenery" class="container">
+		<div class="tab-title">
+			<h2>玩景点</h2>			
+		</div>
+		<div class="scenery-info clearfix">			
+			<!-- 左侧区域 -->
+			<div class="scenery-left fl">
+				<ul>
+					<li>
+						<div class="top"><img class="full" src="upload/scenery01.jpg" alt=""></div>
+						<div class="bottom">
+							<div>
+								<span class="fl">上海迪士尼乐园</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>296</i>
+										起
+								</span>
+							</div>
+						</div>
+						<div class="scenery-box">
+							上海
+						</div>
+					</li>
+					<li>
+						<div class="top"><img class="full" src="upload/scenery02.jpg" alt=""></div>
+						<div class="bottom">
+							<div>
+								<span class="fl">上海科技馆</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>296</i>
+										起
+								</span>
+							</div>
+						</div>
+						<div class="scenery-box">
+							上海
+						</div>
+					</li>
+					<li>
+						<div class="top"><img class="full" src="upload/scenery03.jpg" alt=""></div>
+						<div class="bottom">
+							<div>
+								<span class="fl">上海野生动物园</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>296</i>
+										起
+								</span>
+							</div>
+						</div>
+						<div class="scenery-box">
+							上海
+						</div>
+					</li>
+					<li>
+						<div class="top"><img class="full" src="upload/scenery04.jpg" alt=""></div>
+						<div class="bottom">
+							<div>
+								<span class="fl">上海自然博物馆</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>296</i>
+										起
+								</span>
+							</div>
+						</div>
+						<div class="scenery-box">
+							上海
+						</div>
+					</li>
+					<li>
+						<div class="top"><img class="full" src="upload/scenery05.jpg" alt=""></div>
+						<div class="bottom">
+							<div>
+								<span class="fl">东方明珠</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>296</i>
+										起
+								</span>
+							</div>
+						</div>
+						<div class="scenery-box">
+							上海
+						</div>
+					</li>
+					<li>
+						<div class="top"><img class="full" src="upload/scenery06.jpg" alt=""></div>
+						<div class="bottom">
+							<div>
+								<span class="fl">上海海洋水族馆</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>296</i>
+										起
+								</span>
+							</div>
+						</div>
+						<div class="scenery-box">
+							上海
+						</div>
+					</li>
+					<li>
+						<div class="top"><img class="full" src="upload/scenery07.jpg" alt=""></div>
+						<div class="bottom">
+							<div>
+								<span class="fl">上海杜莎夫人蜡像馆</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>296</i>
+										起
+								</span>
+							</div>
+						</div>
+						<div class="scenery-box">
+							上海
+						</div>
+					</li>
+					<li>
+						<div class="top"><img class="full" src="upload/scenery08.jpg" alt=""></div>
+						<div class="bottom">
+							<div>
+								<span class="fl">上海长风海洋世界</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>296</i>
+										起
+								</span>
+							</div>
+						</div>
+						<div class="scenery-box">
+							上海
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!-- 右侧区域 -->
+			<div class="scenery-right fr">
+				<div class="s-r-top">
+					<p>热门城市</p>
+					<ul class="clearfix">
+						<li>上海</li>
+						<li>苏州</li>
+						<li>无锡</li>
+						<li>南通</li>
+						<li>宁波</li>
+						<li>绍兴</li>
+						<li>舟山</li>
+						<li>泰州</li>
+						<li>镇江</li>
+						<li>南京</li>
+						<li>金华</li>
+						<li>芜湖</li>
+						<li>温州</li>
+						<li>池州</li>
+						<li>衢州</li>
+						<li style="margin-right: 0">连云港</li>
+					</ul>
+					<p style="margin-top: 18px">主题活动</p>
+					<ul class="clearfix">
+						<li>游乐场</li>
+						<li>城市观光</li>
+						<li>儿童乐园</li>
+						<li>主题乐园</li>
+						<li>博物馆</li>
+						<li>公园</li>
+						<li>古镇</li>						
+					</ul>
+				</div>
+				<div class="s-r-bottom">					
+					<div class="s-r-b-left fl"><img src="images/m-h-left1.png" alt=""></div>
+					<div class="s-r-b-right fl">
+						<p>游迪士尼</p>
+						<span>约会白雪公主</span>
+					</div>				
+				</div>
+			</div>			
+		</div>
+	</div>
+	<!-- 游周边 -->
+	<div id="nearby" class="container">
+		<div class="tab-title clearfix">
+			<h2>游周边</h2>
+			<ul>
+				<li class="active">热推</li>
+				<li>北京</li>				
+			</ul>
+		</div>
+		<div class="nearby-info clearfix">
+			<!-- 热推 -->
+			<div class="nearby-left fl">
+				<ul>
+					<li class="big-pic"><img class="full" src="upload/nearby11.jpg" alt="">
+					    <div class="intro-box">
+							<p class="text-cut">古北水镇+星空下的浪漫之旅+修炼爱情双汽2日跟团游 送月老祈福 观孔明灯无人机秀 含中西自助早餐 室内外泳池 多次出入证 </p>
+							<em>
+								北京-北京
+								<i>￥</i><b>7280</b>起		
+							</em>							
+						</div>
+						<div class="nearby-ico">
+							跟团游
+						</div>
+					</li>
+					<li class="small-pic  nomargin">
+						<div class="top"><img class="full" src="upload/nearby12.jpg" alt=""></div>
+						<div class="bottom">
+							<p>【同程纯玩品质推荐精美午餐无线耳麦解暑特饮】华清宫+骊山+兵马俑+美食天堂永兴坊汽车1日跟团游 <精美38元自助午餐  免费使用景区无线耳麦  赠送陕西特饮冰峰  假期出游优选></p>
+							<div class="price clearfix">
+								<span class="fl">西安-西安</span>
+								<span class="fr">
+									<i>￥</i>
+								    <em>268</em>起
+								</span>
+							</div>
+						</div>
+						<div class="nearby-ico">
+							跟团游
+						</div>
+					</li>
+					<li class="small-pic">
+						<div class="top"><img class="full" src="upload/nearby13.jpg" alt=""></div>
+						<div class="bottom">
+							<p>五环内免费接+八达岭长城+明十三陵定地宫+鸟巢+水立方双汽1日跟团游 天天发团  纯玩无购物如有隐形商店自愿赔偿5000元 品质线路 赠送特色午餐  </p>
+							<div class="price clearfix">
+								<span class="fl">北京-北京</span>
+								<span class="fr">
+									<i>￥</i>
+								    <em>165</em>起
+								</span>
+							</div>
+						</div>
+						<div class="nearby-ico">
+							跟团游
+						</div>
+					</li>
+					<li class="small-pic">
+						<div class="top"><img class="full" src="upload/nearby14.jpg" alt=""></div>
+						<div class="bottom">
+							<p>双人套餐畅玩恒大碧海银沙2日游 568元自驾游<含泰式房1晚、3餐*2、门票2张、帆船票2张>（1人下单2人去玩，儿童见费用说明）</p>
+							<div class="price clearfix">
+								<span class="fl">苏州-南通</span>
+								<span class="fr">
+									<i>￥</i>
+								    <em>568</em>起
+								</span>
+							</div>
+						</div>
+						<div class="nearby-ico">
+							跟团游
+						</div>
+					</li>
+					<li class="small-pic">
+						<div class="top"><img class="full" src="upload/nearby15.jpg" alt=""></div>
+						<div class="bottom">
+							<p>阳江闸坡海陵岛+宿海天主题度假酒店直通车自由行2日游 每间房赠送1风筝 广州佛山均有上车点</p>
+							<div class="price clearfix">
+								<span class="fl">广州-阳江</span>
+								<span class="fr">
+									<i>￥</i>
+								    <em>160</em>起
+								</span>
+							</div>
+						</div>
+						<div class="nearby-ico">
+							跟团游
+						</div>
+					</li>
+					<li class="small-pic">
+						<div class="top"><img class="full" src="upload/nearby16.jpg" alt=""></div>
+						<div class="bottom">
+							<p>鸟巢+水立方+国家大剧院+中央电视塔住北京丽都维景大酒店</p>
+							<div class="price clearfix">
+								<span class="fl">北京,哈尔滨</span>
+								<span class="fr">
+									<i>￥</i>
+								    <em>1744</em>起
+								</span>
+							</div>
+						</div>
+						<div class="nearby-ico">
+							跟团游
+						</div>
+					</li>
+					<li class="small-pic">
+						<div class="top"><img class="full" src="upload/nearby17.jpg" alt=""></div>
+						<div class="bottom">
+							<p>自选宋城千古情主题酒店（杭州西湖店）杭州宋城千古情（跑男拍摄基地）线路可以满足不同群体出游需求预订精选套餐包含演出！</p>
+							<div class="price clearfix">
+								<span class="fl">杭州</span>
+								<span class="fr">
+									<i>￥</i>
+								    <em>488</em>起
+								</span>
+							</div>
+						</div>
+						<div class="nearby-ico">
+							跟团游
+						</div>
+					</li>					
+				</ul>
+			</div>
+			<!-- 北京 -->
+			<div class="nearby-left hidden fl">
+				<ul>
+					<li class="big-pic"><img class="full" src="upload/nearby21.jpg" alt="">
+					    <div class="intro-box">
+							<p class="text-cut">古北水镇+赏星空夜景+品南北小吃双汽1日跟团游 深度游充足时间日游 夜游    纯玩无购物 贴心服务    超值赠送长城灯光秀即音乐水舞秀表演</p>
+							<em>
+								北京-北京
+								<i>￥</i><b>238</b>起		
+							</em>							
+						</div>
+						<div class="nearby-ico">
+							跟团游
+						</div>
+					</li>
+					<li class="small-pic  nomargin">
+						<div class="top"><img class="full" src="upload/nearby22.jpg" alt=""></div>
+						<div class="bottom">
+							<p>古北水镇+司马台长城+夜宿古北之光大酒店2日跟团游 赏夜景  住古北之光大酒店</p>
+							<div class="price clearfix">
+								<span class="fl">天津-北京</span>
+								<span class="fr">
+									<i>￥</i>
+								    <em>978</em>起
+								</span>
+							</div>
+						</div>
+						<div class="nearby-ico">
+							跟团游
+						</div>
+					</li>
+					<li class="small-pic">
+						<div class="top"><img class="full" src="upload/nearby23.jpg" alt=""></div>
+						<div class="bottom">
+							<p>星空小镇北京古北水镇2日跟团游 长城脚下星空小镇古北水镇  </p>
+							<div class="price clearfix">
+								<span class="fl">石家庄-北京</span>
+								<span class="fr">
+									<i>￥</i>
+								    <em>858</em>起
+								</span>
+							</div>
+						</div>
+						<div class="nearby-ico">
+							跟团游
+						</div>
+					</li>
+					<li class="small-pic">
+						<div class="top"><img class="full" src="upload/nearby24.jpg" alt=""></div>
+						<div class="bottom">
+							<p>野三坡百里峡七彩艺术小镇十渡龙湖湾体验盘壁玻璃栈道彩虹谷汽车2日跟团游 天然画廊百里峡集雄险奇幽 北方桂林阳朔十渡 行走在七彩玻璃栈道 于乐山水间</p>
+							<div class="price clearfix">
+								<span class="fl">天津-北京</span>
+								<span class="fr">
+									<i>￥</i>
+								    <em>270</em>起
+								</span>
+							</div>
+						</div>
+						<div class="nearby-ico">
+							跟团游
+						</div>
+					</li>
+					<li class="small-pic">
+						<div class="top"><img class="full" src="upload/nearby25.jpg" alt=""></div>
+						<div class="bottom">
+							<p>古北之光温泉度假酒店1晚+双人水镇门票+双人城上温泉+无边泳池（家庭房含3人门票复式家庭房含4人门票）</p>
+							<div class="price clearfix">
+								<span class="fl">北京</span>
+								<span class="fr">
+									<i>￥</i>
+								    <em>160</em>起
+								</span>
+							</div>
+						</div>
+						<div class="nearby-ico">
+							跟团游
+						</div>
+					</li>
+					<li class="small-pic">
+						<div class="top"><img class="full" src="upload/nearby26.jpg" alt=""></div>
+						<div class="bottom">
+							<p>古北水镇段家大院1晚+早餐+温泉+享古北水镇80元/位优惠价（门票费用自理）</p>
+							<div class="price clearfix">
+								<span class="fl">北京</span>
+								<span class="fr">
+									<i>￥</i>
+								    <em>828</em>起
+								</span>
+							</div>
+						</div>
+						<div class="nearby-ico">
+							跟团游
+						</div>
+					</li>
+					<li class="small-pic">
+						<div class="top"><img class="full" src="upload/nearby27.jpg" alt=""></div>
+						<div class="bottom">
+							<p>古北水镇兵营客栈1晚+早餐+温泉代金券+享水镇门票80元/位优惠</p>
+							<div class="price clearfix">
+								<span class="fl">北京</span>
+								<span class="fr">
+									<i>￥</i>
+								    <em>568</em>起
+								</span>
+							</div>
+						</div>
+						<div class="nearby-ico">
+							跟团游
+						</div>
+					</li>					
+				</ul>
+			</div>
+			<div class="nearby-right fr">
+				<div class="s-r-top">
+					<p>热门城市</p>
+					<div class="n-r-city">
+						北京
+					</div>
+					<p style="margin-top: 18px">游玩天数</p>
+					<ul class="clearfix">
+						<li>四天三晚</li>
+						<li>三天两晚</li>
+						<li>两天一晚</li>
+					</ul>
+					<p style="margin-top: 18px">品质主题</p>
+					<ul class="clearfix">
+						<li>特价秒杀</li>
+						<li>房车露营</li>
+					</ul>
+				</div>
+				<div class="s-r-bottom clearfix">			
+					<div class="s-r-b-left fl"><img src="images/nearbyico01.png" alt=""></div>
+					<div class="s-r-b-right fl">
+						<p>快乐大巴</p>
+						<span>为梦想出发</span>
+					</div>				
+				</div>
+				<div class="s-r-bottom clearfix" style="margin-top: 20px;padding-left: 8px;">			
+					<div class="s-r-b-left fl"><img src="images/nearbyico02.png" alt=""></div>
+					<div class="s-r-b-right fl">
+						<p>快乐童心</p>
+						<span>陪孩子看世界</span>
+					</div>				
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 游中国 -->
+	<div id="china" class="container">
+		<div class="tab-title clearfix">
+			<h2>游中国</h2>
+			<ul>
+				<li class="active">热门</li>
+				<li>厦门</li>
+				<li>青岛</li>
+				<li>桂林</li>
+				<li>西安</li>
+				<li>贵阳</li>	
+				<li>北京</li>
+				<li>昆明</li>
+				<li>丽江</li>
+			</ul>
+		</div>
+		<div class="china-info clearfix">
+			<!-- 热门 -->
+			<div class="china-left-main fl">
+				<ul>
+					<li class="hot">
+						<img class="full" src="upload/china11.jpg" alt="">	
+						<div class="h-i-box">
+							<p>三亚</p>
+							<span>被称为“东方夏威夷”。</span>
+						</div>
+					</li>
+					<li class="hot">
+						<img class="full" src="upload/china12.jpg" alt="">	
+						<div class="h-i-box">
+							<p>厦门</p>
+							<span>海滨的文艺小城</span>
+						</div>	
+					</li>
+					<li class="hot">
+						<img class="full" src="upload/china13.jpg" alt="">
+						<div class="h-i-box">
+							<p>桂林</p>
+							<span>桂林山水甲天下</span>
+						</div>	
+					</li>
+					<li class="hot">
+						<img class="full" src="upload/china14.jpg" alt="">
+						<div class="h-i-box">
+							<p>贵阳</p>
+							<span>筑城的春光</span>
+						</div>		
+					</li>
+					<li class="hot">
+						<img class="full" src="upload/china15.jpg" alt="">	
+						<div class="h-i-box">
+							<p>北京</p>
+							<span>皇城脚下的气魄</span>
+						</div>
+					</li>
+					<li class="hot">
+						<img class="full" src="upload/china16.jpg" alt="">	
+						<div class="h-i-box">
+							<p>西安</p>
+							<span>长安城的前世今生</span>
+						</div>
+					</li>
+					<li class="hot">
+						<img class="full" src="upload/china17.jpg" alt="">	
+						<div class="h-i-box">
+							<p>昆明</p>
+							<span>春城无处不飞花</span>
+						</div>
+					</li>
+					<li class="hot">
+						<img class="full" src="upload/china18.jpg" alt="">	
+						<div class="h-i-box">
+							<p>青岛</p>
+							<span>盛夏啤酒节你来吗</span>
+						</div>
+					</li>					
+				</ul>
+			</div>
+			<!-- 厦门 -->
+			<div class="china-left-main hidden fl">
+				<ul>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china021.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="倾心厦门+鼓浪屿+云水谣土楼+鹭江夜游双飞5日跟团游">倾心厦门+鼓浪屿+云水谣土楼+鹭江夜游双飞5日跟团游</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>1914</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china022.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="随遇时光厦门+鼓浪屿双飞4日跟团游">随遇时光厦门+鼓浪屿双飞4日跟团游</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>1170</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china023.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="厦门+鼓浪屿双飞5日自由行">厦门+鼓浪屿双飞5日自由行</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>296</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china024.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="情迷厦门+鼓浪屿+云水谣双飞5日跟团游">情迷厦门+鼓浪屿+云水谣双飞5日跟团游</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>296</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china025.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="厦门+鼓浪屿+云水谣+地笼捕蟹双飞5日跟团游">厦门+鼓浪屿+云水谣+地笼捕蟹双飞5日跟团游</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>296</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china026.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="厦门+鼓浪屿+环岛路+曾厝垵风情街双飞4日跟团游">厦门+鼓浪屿+环岛路+曾厝垵风情街双飞4日跟团游</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>296</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china027.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="厦门+鼓浪屿双飞4日跟团游">厦门+鼓浪屿双飞4日跟团游</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>1849</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china028.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="厦门+鼓浪屿+云水谣土楼双飞5日跟团游">厦门+鼓浪屿+云水谣土楼双飞5日跟团游</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>1952</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>			
+			<!-- 青岛 -->
+			<div class="china-left-main hidden fl">
+				<ul>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china031.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="青岛+海阳+威海+烟台+蓬莱双高/双动/火车5日跟团游">青岛+海阳+威海+烟台+蓬莱双高/双动/火车5日跟团游</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>2679</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china032.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="青岛双飞5日自由行">青岛双飞5日自由行</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>1670</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china033.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="青岛双飞5日自由行">青岛双飞5日自由行</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>296</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china034.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="青岛双飞3日自由行">青岛双飞3日自由行</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>296</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china035.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="梦幻海水乐园+神游海洋世界+青岛+乳山+威海刘公岛+蓬莱火车/动车/高铁5日跟团游">梦幻海水乐园+神游海洋世界+青岛+乳山+威海刘公岛+蓬莱火车/动车/高铁5日跟团游</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>1678</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china036.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="梦幻海水乐园+神游海洋世界+青岛+乳山+威海刘公岛+蓬莱双飞5日跟团游">梦幻海水乐园+神游海洋世界+青岛+乳山+威海刘公岛+蓬莱双飞5日跟团游</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>2296</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china037.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="青岛+崂山+极地海洋世界双飞5日跟团游">青岛+崂山+极地海洋世界双飞5日跟团游</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>1849</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china038.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="青岛双飞4日自由行">青岛双飞4日自由行</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>1952</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!-- 桂林 -->
+			<div class="china-left-main hidden fl">
+				<ul>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china021.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="倾心厦门+鼓浪屿+云水谣土楼+鹭江夜游双飞5日跟团游">倾心厦门+鼓浪屿+云水谣土楼+鹭江夜游双飞5日跟团游</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>1914</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china022.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="随遇时光厦门+鼓浪屿双飞4日跟团游">随遇时光厦门+鼓浪屿双飞4日跟团游</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>1170</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china023.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="厦门+鼓浪屿双飞5日自由行">厦门+鼓浪屿双飞5日自由行</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>296</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china024.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="情迷厦门+鼓浪屿+云水谣双飞5日跟团游">情迷厦门+鼓浪屿+云水谣双飞5日跟团游</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>296</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china025.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="厦门+鼓浪屿+云水谣+地笼捕蟹双飞5日跟团游">厦门+鼓浪屿+云水谣+地笼捕蟹双飞5日跟团游</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>296</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china026.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="厦门+鼓浪屿+环岛路+曾厝垵风情街双飞4日跟团游">厦门+鼓浪屿+环岛路+曾厝垵风情街双飞4日跟团游</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>296</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china027.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="厦门+鼓浪屿双飞4日跟团游">厦门+鼓浪屿双飞4日跟团游</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>1849</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china028.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="厦门+鼓浪屿+云水谣土楼双飞5日跟团游">厦门+鼓浪屿+云水谣土楼双飞5日跟团游</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>1952</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!-- 西安 -->
+			<div class="china-left-main hidden fl">
+				<ul>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china031.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="青岛+海阳+威海+烟台+蓬莱双高/双动/火车5日跟团游">青岛+海阳+威海+烟台+蓬莱双高/双动/火车5日跟团游</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>2679</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china032.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="青岛双飞5日自由行">青岛双飞5日自由行</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>1670</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china033.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="青岛双飞5日自由行">青岛双飞5日自由行</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>296</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china034.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="青岛双飞3日自由行">青岛双飞3日自由行</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>296</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china035.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="梦幻海水乐园+神游海洋世界+青岛+乳山+威海刘公岛+蓬莱火车/动车/高铁5日跟团游">梦幻海水乐园+神游海洋世界+青岛+乳山+威海刘公岛+蓬莱火车/动车/高铁5日跟团游</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>1678</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china036.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="梦幻海水乐园+神游海洋世界+青岛+乳山+威海刘公岛+蓬莱双飞5日跟团游">梦幻海水乐园+神游海洋世界+青岛+乳山+威海刘公岛+蓬莱双飞5日跟团游</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>2296</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china037.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="青岛+崂山+极地海洋世界双飞5日跟团游">青岛+崂山+极地海洋世界双飞5日跟团游</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>1849</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china038.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="青岛双飞4日自由行">青岛双飞4日自由行</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>1952</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!-- 贵阳 -->
+			<div class="china-left-main hidden fl">
+				<ul>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china021.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="倾心厦门+鼓浪屿+云水谣土楼+鹭江夜游双飞5日跟团游">倾心厦门+鼓浪屿+云水谣土楼+鹭江夜游双飞5日跟团游</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>1914</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china022.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="随遇时光厦门+鼓浪屿双飞4日跟团游">随遇时光厦门+鼓浪屿双飞4日跟团游</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>1170</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china023.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="厦门+鼓浪屿双飞5日自由行">厦门+鼓浪屿双飞5日自由行</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>296</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china024.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="情迷厦门+鼓浪屿+云水谣双飞5日跟团游">情迷厦门+鼓浪屿+云水谣双飞5日跟团游</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>296</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china025.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="厦门+鼓浪屿+云水谣+地笼捕蟹双飞5日跟团游">厦门+鼓浪屿+云水谣+地笼捕蟹双飞5日跟团游</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>296</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china026.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="厦门+鼓浪屿+环岛路+曾厝垵风情街双飞4日跟团游">厦门+鼓浪屿+环岛路+曾厝垵风情街双飞4日跟团游</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>296</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china027.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="厦门+鼓浪屿双飞4日跟团游">厦门+鼓浪屿双飞4日跟团游</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>1849</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china028.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="厦门+鼓浪屿+云水谣土楼双飞5日跟团游">厦门+鼓浪屿+云水谣土楼双飞5日跟团游</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>1952</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!-- 北京 -->
+			<div class="china-left-main hidden fl">
+				<ul>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china031.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="青岛+海阳+威海+烟台+蓬莱双高/双动/火车5日跟团游">青岛+海阳+威海+烟台+蓬莱双高/双动/火车5日跟团游</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>2679</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china032.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="青岛双飞5日自由行">青岛双飞5日自由行</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>1670</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china033.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="青岛双飞5日自由行">青岛双飞5日自由行</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>296</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china034.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="青岛双飞3日自由行">青岛双飞3日自由行</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>296</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china035.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="梦幻海水乐园+神游海洋世界+青岛+乳山+威海刘公岛+蓬莱火车/动车/高铁5日跟团游">梦幻海水乐园+神游海洋世界+青岛+乳山+威海刘公岛+蓬莱火车/动车/高铁5日跟团游</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>1678</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china036.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="梦幻海水乐园+神游海洋世界+青岛+乳山+威海刘公岛+蓬莱双飞5日跟团游">梦幻海水乐园+神游海洋世界+青岛+乳山+威海刘公岛+蓬莱双飞5日跟团游</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>2296</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china037.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="青岛+崂山+极地海洋世界双飞5日跟团游">青岛+崂山+极地海洋世界双飞5日跟团游</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>1849</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china038.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="青岛双飞4日自由行">青岛双飞4日自由行</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>1952</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!-- 昆明 -->
+			<div class="china-left-main hidden fl">
+				<ul>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china021.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="倾心厦门+鼓浪屿+云水谣土楼+鹭江夜游双飞5日跟团游">倾心厦门+鼓浪屿+云水谣土楼+鹭江夜游双飞5日跟团游</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>1914</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china022.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="随遇时光厦门+鼓浪屿双飞4日跟团游">随遇时光厦门+鼓浪屿双飞4日跟团游</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>1170</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china023.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="厦门+鼓浪屿双飞5日自由行">厦门+鼓浪屿双飞5日自由行</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>296</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china024.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="情迷厦门+鼓浪屿+云水谣双飞5日跟团游">情迷厦门+鼓浪屿+云水谣双飞5日跟团游</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>296</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china025.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="厦门+鼓浪屿+云水谣+地笼捕蟹双飞5日跟团游">厦门+鼓浪屿+云水谣+地笼捕蟹双飞5日跟团游</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>296</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china026.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="厦门+鼓浪屿+环岛路+曾厝垵风情街双飞4日跟团游">厦门+鼓浪屿+环岛路+曾厝垵风情街双飞4日跟团游</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>296</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china027.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="厦门+鼓浪屿双飞4日跟团游">厦门+鼓浪屿双飞4日跟团游</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>1849</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china028.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="厦门+鼓浪屿+云水谣土楼双飞5日跟团游">厦门+鼓浪屿+云水谣土楼双飞5日跟团游</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>1952</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!-- 丽江 -->
+			<div class="china-left-main hidden fl">
+				<ul>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china031.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="青岛+海阳+威海+烟台+蓬莱双高/双动/火车5日跟团游">青岛+海阳+威海+烟台+蓬莱双高/双动/火车5日跟团游</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>2679</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china032.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="青岛双飞5日自由行">青岛双飞5日自由行</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>1670</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china033.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="青岛双飞5日自由行">青岛双飞5日自由行</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>296</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china034.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="青岛双飞3日自由行">青岛双飞3日自由行</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>296</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china035.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="梦幻海水乐园+神游海洋世界+青岛+乳山+威海刘公岛+蓬莱火车/动车/高铁5日跟团游">梦幻海水乐园+神游海洋世界+青岛+乳山+威海刘公岛+蓬莱火车/动车/高铁5日跟团游</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>1678</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china036.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="梦幻海水乐园+神游海洋世界+青岛+乳山+威海刘公岛+蓬莱双飞5日跟团游">梦幻海水乐园+神游海洋世界+青岛+乳山+威海刘公岛+蓬莱双飞5日跟团游</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>2296</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china037.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="青岛+崂山+极地海洋世界双飞5日跟团游">青岛+崂山+极地海洋世界双飞5日跟团游</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>1849</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="normal">
+						<div class="top"><img class="full" src="upload/china038.jpg" alt=""></div>
+						<div class="bottom">
+							<p title="青岛双飞4日自由行">青岛双飞4日自由行</p>
+							<div>
+								<span class="fl">上海出发</span>
+								<span class="fr">
+									<b>¥</b>
+									<i>1952</i>
+										起
+								</span>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="china-right-small fr"></div>
+			<div class="china-right hidden fr"></div>		
+		</div>
+	</div>
+	<!-- 游世界 -->
+	<div id="world" class="container">
+		<div class="tab-title clearfix">
+			<h2>游世界</h2>
+			<ul>
+				<li class="active">热推</li>
+				<li>海岛</li>
+				<li>日本</li>
+				<li>东南亚</li>
+				<li>欧洲</li>
+				<li>中东非</li>	
+				<li>美洲</li>
+				<li>澳新</li>
+			</ul>
+		</div>
+		<div class="world-info clearfix">
+			<!-- 热推 -->
+			<div class="world-left fl">
+				<ul>
+					<li class="cj-w222">
+						<img class="full" src="upload/world11.jpg" alt="">
+						<div class="h-i-box">
+							<p>皇后镇</p>
+							<span>依山傍水小城</span>
+						</div>
+					</li>
+					<li class="cj-w464">
+						<img class="full" src="upload/world12.jpg" alt="">
+						<div class="h-i-box">
+							<p>悉尼</p>
+							<span>阳光自由之都</span>
+						</div>
+					</li>
+					<li class="cj-w222h208">
+						<img class="full" src="upload/world13.jpg" alt="">
+						<div class="h-i-box">
+							<p>曼谷</p>
+							<span>东方威尼斯</span>
+						</div>
+					</li>
+					<li class="cj-w222h208">
+						<img class="full" src="upload/world14.jpg" alt="">
+						<div class="h-i-box">
+							<p>清迈</p>
+							<span>北国玫瑰之都</span>
+						</div>
+					</li>
+					<li class="cj-w464">
+						<img class="full" src="upload/world15.jpg" alt="">
+						<div class="h-i-box">
+							<p>长滩岛</p>
+							<span>浪漫白沙滩</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!-- 海岛 -->
+			<div class="world-left hidden fl">
+				<ul>
+					<li class="cj-w222">
+						<img class="full" src="upload/world21.jpg" alt="">
+						<div class="h-i-box">
+							<p>皇后镇</p>
+							<span>依山傍水小城</span>
+						</div>
+					</li>
+					<li class="cj-w464">
+						<img class="full" src="upload/world22.jpg" alt="">
+						<div class="h-i-box">
+							<p>悉尼</p>
+							<span>阳光自由之都</span>
+						</div>
+					</li>
+					<li class="cj-w222h208">
+						<img class="full" src="upload/world23.jpg" alt="">
+						<div class="h-i-box">
+							<p>曼谷</p>
+							<span>东方威尼斯</span>
+						</div>
+					</li>
+					<li class="cj-w222h208">
+						<img class="full" src="upload/world24.jpg" alt="">
+						<div class="h-i-box">
+							<p>清迈</p>
+							<span>北国玫瑰之都</span>
+						</div>
+					</li>
+					<li class="cj-w464">
+						<img class="full" src="upload/world25.jpg" alt="">
+						<div class="h-i-box">
+							<p>长滩岛</p>
+							<span>浪漫白沙滩</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!-- 日本 -->
+			<div class="world-left hidden fl">
+				<ul>
+					<li class="cj-w222">
+						<img class="full" src="upload/world31.jpg" alt="">
+						<div class="h-i-box">
+							<p>皇后镇</p>
+							<span>依山傍水小城</span>
+						</div>
+					</li>
+					<li class="cj-w464">
+						<img class="full" src="upload/world32.jpg" alt="">
+						<div class="h-i-box">
+							<p>悉尼</p>
+							<span>阳光自由之都</span>
+						</div>
+					</li>
+					<li class="cj-w222h208">
+						<img class="full" src="upload/world33.jpg" alt="">
+						<div class="h-i-box">
+							<p>曼谷</p>
+							<span>东方威尼斯</span>
+						</div>
+					</li>
+					<li class="cj-w222h208">
+						<img class="full" src="upload/world34.jpg" alt="">
+						<div class="h-i-box">
+							<p>清迈</p>
+							<span>北国玫瑰之都</span>
+						</div>
+					</li>
+					<li class="cj-w464">
+						<img class="full" src="upload/world35.jpg" alt="">
+						<div class="h-i-box">
+							<p>长滩岛</p>
+							<span>浪漫白沙滩</span>
+						</div>
+					</li>
+				</ul>
+			</div>         	
+			<!-- 东南亚 -->
+         	<div class="world-left hidden fl">
+				<ul>
+					<li class="cj-w222">
+						<img class="full" src="upload/world41.jpg" alt="">
+						<div class="h-i-box">
+							<p>皇后镇</p>
+							<span>依山傍水小城</span>
+						</div>
+					</li>
+					<li class="cj-w464">
+						<img class="full" src="upload/world42.jpg" alt="">
+						<div class="h-i-box">
+							<p>悉尼</p>
+							<span>阳光自由之都</span>
+						</div>
+					</li>
+					<li class="cj-w222h208">
+						<img class="full" src="upload/world43.jpg" alt="">
+						<div class="h-i-box">
+							<p>曼谷</p>
+							<span>东方威尼斯</span>
+						</div>
+					</li>
+					<li class="cj-w222h208">
+						<img class="full" src="upload/world44.jpg" alt="">
+						<div class="h-i-box">
+							<p>清迈</p>
+							<span>北国玫瑰之都</span>
+						</div>
+					</li>
+					<li class="cj-w464">
+						<img class="full" src="upload/world45.jpg" alt="">
+						<div class="h-i-box">
+							<p>长滩岛</p>
+							<span>浪漫白沙滩</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!-- 欧洲 -->
+			<div class="world-left hidden fl">
+				<ul>
+					<li class="cj-w222">
+						<img class="full" src="upload/world21.jpg" alt="">
+						<div class="h-i-box">
+							<p>皇后镇</p>
+							<span>依山傍水小城</span>
+						</div>
+					</li>
+					<li class="cj-w464">
+						<img class="full" src="upload/world22.jpg" alt="">
+						<div class="h-i-box">
+							<p>悉尼</p>
+							<span>阳光自由之都</span>
+						</div>
+					</li>
+					<li class="cj-w222h208">
+						<img class="full" src="upload/world23.jpg" alt="">
+						<div class="h-i-box">
+							<p>曼谷</p>
+							<span>东方威尼斯</span>
+						</div>
+					</li>
+					<li class="cj-w222h208">
+						<img class="full" src="upload/world24.jpg" alt="">
+						<div class="h-i-box">
+							<p>清迈</p>
+							<span>北国玫瑰之都</span>
+						</div>
+					</li>
+					<li class="cj-w464">
+						<img class="full" src="upload/world25.jpg" alt="">
+						<div class="h-i-box">
+							<p>长滩岛</p>
+							<span>浪漫白沙滩</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!-- 中东非 -->
+			<div class="world-left hidden fl">
+				<ul>
+					<li class="cj-w222">
+						<img class="full" src="upload/world31.jpg" alt="">
+						<div class="h-i-box">
+							<p>皇后镇</p>
+							<span>依山傍水小城</span>
+						</div>
+					</li>
+					<li class="cj-w464">
+						<img class="full" src="upload/world32.jpg" alt="">
+						<div class="h-i-box">
+							<p>悉尼</p>
+							<span>阳光自由之都</span>
+						</div>
+					</li>
+					<li class="cj-w222h208">
+						<img class="full" src="upload/world33.jpg" alt="">
+						<div class="h-i-box">
+							<p>曼谷</p>
+							<span>东方威尼斯</span>
+						</div>
+					</li>
+					<li class="cj-w222h208">
+						<img class="full" src="upload/world34.jpg" alt="">
+						<div class="h-i-box">
+							<p>清迈</p>
+							<span>北国玫瑰之都</span>
+						</div>
+					</li>
+					<li class="cj-w464">
+						<img class="full" src="upload/world35.jpg" alt="">
+						<div class="h-i-box">
+							<p>长滩岛</p>
+							<span>浪漫白沙滩</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!-- 美洲 -->
+			<div class="world-left hidden fl">
+				<ul>
+					<li class="cj-w222">
+						<img class="full" src="upload/world21.jpg" alt="">
+						<div class="h-i-box">
+							<p>皇后镇</p>
+							<span>依山傍水小城</span>
+						</div>
+					</li>
+					<li class="cj-w464">
+						<img class="full" src="upload/world22.jpg" alt="">
+						<div class="h-i-box">
+							<p>悉尼</p>
+							<span>阳光自由之都</span>
+						</div>
+					</li>
+					<li class="cj-w222h208">
+						<img class="full" src="upload/world23.jpg" alt="">
+						<div class="h-i-box">
+							<p>曼谷</p>
+							<span>东方威尼斯</span>
+						</div>
+					</li>
+					<li class="cj-w222h208">
+						<img class="full" src="upload/world24.jpg" alt="">
+						<div class="h-i-box">
+							<p>清迈</p>
+							<span>北国玫瑰之都</span>
+						</div>
+					</li>
+					<li class="cj-w464">
+						<img class="full" src="upload/world25.jpg" alt="">
+						<div class="h-i-box">
+							<p>长滩岛</p>
+							<span>浪漫白沙滩</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!-- 澳新 -->
+			<div class="world-left hidden fl">
+				<ul>
+					<li class="cj-w222">
+						<img class="full" src="upload/world31.jpg" alt="">
+						<div class="h-i-box">
+							<p>皇后镇</p>
+							<span>依山傍水小城</span>
+						</div>
+					</li>
+					<li class="cj-w464">
+						<img class="full" src="upload/world32.jpg" alt="">
+						<div class="h-i-box">
+							<p>悉尼</p>
+							<span>阳光自由之都</span>
+						</div>
+					</li>
+					<li class="cj-w222h208">
+						<img class="full" src="upload/world33.jpg" alt="">
+						<div class="h-i-box">
+							<p>曼谷</p>
+							<span>东方威尼斯</span>
+						</div>
+					</li>
+					<li class="cj-w222h208">
+						<img class="full" src="upload/world34.jpg" alt="">
+						<div class="h-i-box">
+							<p>清迈</p>
+							<span>北国玫瑰之都</span>
+						</div>
+					</li>
+					<li class="cj-w464">
+						<img class="full" src="upload/world35.jpg" alt="">
+						<div class="h-i-box">
+							<p>长滩岛</p>
+							<span>浪漫白沙滩</span>
+						</div>
+					</li>
+				</ul>
+			</div> 
+			<div class="world-right fr">
+				<img src="images/worldright.jpg" alt="">
+			</div>
+		</div>
+	</div>
+	<!-- 坐游轮 -->
+	<div id="cruise" class="container">
+		<div class="tab-title clearfix">
+			<h2>坐游轮</h2>
+			<ul>
+				<li class="active">热门推荐</li>
+				<li>邮轮公司</li>
+			</ul>
+		</div>
+		<div class="cruise-info clearfix">
+			<!-- 热门推荐 -->
+			<div class="cruise-left fl">
+				<ul>
+					<li class="hot-recomd">
+						<div class="title">
+							<span>日本</span>
+							<em>天海邮轮</em>
+						</div>
+						<div class="info">
+							<p>【天海邮轮-新世纪号】2018年8月21日 上海-福冈-上海 4晚5日游</p>
+							<div class="price">
+								<em class="fl">上海出发</em>
+								<span class="fr">
+									<i>￥</i>
+									<b>2999</b>起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="hot-recomd">
+						<div class="title">
+							<span>日本</span>
+							<em>天海邮轮</em>
+						</div>
+						<div class="info">
+							<p>【天海邮轮-新世纪号】2018年8月21日 上海-福冈-上海 4晚5日游</p>
+							<div class="price">
+								<em class="fl">上海出发</em>
+								<span class="fr">
+									<i>￥</i>
+									<b>2999</b>起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="hot-recomd">
+						<div class="title">
+							<span>日本</span>
+							<em>天海邮轮</em>
+						</div>
+						<div class="info">
+							<p>【天海邮轮-新世纪号】2018年8月21日 上海-福冈-上海 4晚5日游</p>
+							<div class="price">
+								<em class="fl">上海出发</em>
+								<span class="fr">
+									<i>￥</i>
+									<b>2999</b>起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="hot-recomd">
+						<div class="title">
+							<span>日本</span>
+							<em>天海邮轮</em>
+						</div>
+						<div class="info">
+							<p>【天海邮轮-新世纪号】2018年8月21日 上海-福冈-上海 4晚5日游</p>
+							<div class="price">
+								<em class="fl">上海出发</em>
+								<span class="fr">
+									<i>￥</i>
+									<b>2999</b>起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="hot-recomd">
+						<div class="title">
+							<span>日本</span>
+							<em>天海邮轮</em>
+						</div>
+						<div class="info">
+							<p>【天海邮轮-新世纪号】2018年8月21日 上海-福冈-上海 4晚5日游</p>
+							<div class="price">
+								<em class="fl">上海出发</em>
+								<span class="fr">
+									<i>￥</i>
+									<b>2999</b>起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="hot-recomd">
+						<div class="title">
+							<span>日本</span>
+							<em>天海邮轮</em>
+						</div>
+						<div class="info">
+							<p>【天海邮轮-新世纪号】2018年8月21日 上海-福冈-上海 4晚5日游</p>
+							<div class="price">
+								<em class="fl">上海出发</em>
+								<span class="fr">
+									<i>￥</i>
+									<b>2999</b>起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="hot-recomd">
+						<div class="title">
+							<span>日本</span>
+							<em>天海邮轮</em>
+						</div>
+						<div class="info">
+							<p>【天海邮轮-新世纪号】2018年8月21日 上海-福冈-上海 4晚5日游</p>
+							<div class="price">
+								<em class="fl">上海出发</em>
+								<span class="fr">
+									<i>￥</i>
+									<b>2999</b>起
+								</span>
+							</div>
+						</div>
+					</li>
+					<li class="hot-recomd">
+						<div class="title">
+							<span>日本</span>
+							<em>天海邮轮</em>
+						</div>
+						<div class="info">
+							<p>【天海邮轮-新世纪号】2018年8月21日 上海-福冈-上海 4晚5日游</p>
+							<div class="price">
+								<em class="fl">上海出发</em>
+								<span class="fr">
+									<i>￥</i>
+									<b>2999</b>起
+								</span>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!-- 邮轮公司 -->
+			<div class="cruise-left hidden fl">
+				<ul>
+					<li>
+						<img class="full" src="upload/cruise01.png" alt="">
+						<div class="cruise-box">
+							皇家加勒比邮轮
+						</div>
+					</li>
+					<li>
+						<img class="full" src="upload/cruise02.png" alt="">
+						<div class="cruise-box">
+							MSC（地中海）邮轮
+						</div>
+					</li>
+					<li>
+						<img class="full" src="upload/cruise03.png" alt="">
+						<div class="cruise-box">
+							歌诗达邮轮
+						</div>
+					</li>
+					<li>
+						<img class="full" src="upload/cruise04.png" alt="">
+						<div class="cruise-box">
+							诺唯真邮轮
+						</div>
+					</li>
+					<li>
+						<img class="full" src="upload/cruise05.png" alt="">
+						<div class="cruise-box">
+							星梦邮轮
+						</div>
+					</li>
+					<li>
+						<img class="full" src="upload/cruise06.png" alt="">
+						<div class="cruise-box">
+							天海邮轮
+						</div>
+					</li>
+					<li>
+						<img class="full" src="upload/cruise07.png" alt="">
+						<div class="cruise-box">
+							丽星邮轮
+						</div>
+					</li>
+					<li>
+						<img class="full" src="upload/cruise08.png" alt="">
+						<div class="cruise-box">
+							美国公主邮轮
+						</div>
+					</li>			
+				</ul>
+			</div>
+			<div class="cruise-right fr">
+				<img src="images/cruiseright.jpg" alt="">
+			</div>
+		</div>
+	</div>
+	<!-- 攻略玩法 -->
+	<div id="strategy" class="container">
+		<div class="tab-title clearfix">
+			<h2>攻略玩法</h2>
+		</div>
+		<div class="strategy-info clearfix">
+			<div class="strategy-left fl">
+				<ul>
+					<li>
+						<div class="top"><img class="full" src="images/strategy01.jpg" alt=""></div>
+						<div class="bottom">
+							<p>张家界</p>
+							<span>惊险刺激玻璃栈道</span>
+						</div>
+					</li>
+					<li>
+						<div class="top"><img class="full" src="images/strategy02.jpg" alt=""></div>
+						<div class="bottom">
+							<p>青岛</p>
+							<span>山东半岛的碧海蓝天</span>
+						</div>
+					</li>
+					<li>
+						<div class="top"><img class="full" src="images/strategy03.jpg" alt=""></div>
+						<div class="bottom">
+							<p>巴厘岛</p>
+							<span>蜜月旅拍都来这儿</span>
+						</div>
+					</li>
+					<li>
+						<div class="top"><img class="full" src="images/strategy04.jpg" alt=""></div>
+						<div class="bottom">
+							<p>厦门</p>
+							<span>海滨的文艺小城</span>	
+						</div>
+					</li>
+					<li>
+						<div class="top"><img class="full" src="images/strategy05.jpg" alt=""></div>
+						<div class="bottom">
+							<p>舟山</p>
+							<span>环海休养胜地</span>	
+						</div>
+					</li>
+					<li>
+						<div class="top"><img class="full" src="images/strategy06.jpg" alt=""></div>
+						<div class="bottom">
+							<p>大连</p>
+							<span>北方明珠避暑胜地</span>
+						</div>
+					</li>
+					<li>
+						<div class="top"><img class="full" src="images/strategy07.jpg" alt=""></div>
+						<div class="bottom">
+							<p>马尔代夫</p>
+							<span>上帝抛洒的项链</span>	
+						</div>
+					</li>
+					<li>
+						<div class="top"><img class="full" src="images/strategy08.jpg" alt=""></div>
+						<div class="bottom">
+							<p>丽江</p>
+							<span>感受一米阳光</span>	
+						</div>
+					</li>
+				</ul>
+			</div>
+			<div class="strategy-right fr">
+				<img src="images/strategyright.jpg" alt="">
+			</div>
+		</div>
+	</div>
+	<!-- 旅行服务 -->
+	<div id="travelService" class="container">
+		<div class="tab-title clearfix">
+			<h2>旅行服务</h2>
+		</div>
+		<div class="travelService-info">
+			<ul class="clearfix">
+				<li>
+					<a href="#">
+						<img class="travelService-ico" src="images/wifi.png" alt="">
+						<p>出境WIFI/电话卡</p>
+						<span>随身wifi，随时随地分享，方便携带</span>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img class="travelService-ico" src="images/visa.png" alt="">
+						<p>签证</p>
+						<span>专业顾问一对一服务，出签成功率99.8%</span>
+					</a>
+				</li>
+				<li class="nomargin">
+					<a href="#">
+						<img class="travelService-ico" src="images/insurance.png" alt="">
+						<p>保险</p>
+						<span>买一份保险，买一份保障和安心</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- 投资伙伴 -->
+	<div class="investpartner container">
+		<div class="tab-title clearfix">
+			<h2>投资伙伴</h2>
+		</div>
+		<div class="investpartner-info">
+			<ul class="clearfix">
+				<li>
+					<a href="#">
+						<img src="images/invest01.png" alt="">
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/invest02.png" alt="">
+					</a>
+				</li>
+				<li class="nomargin">
+					<a href="#">
+						<img src="images/invest03.png" alt="">
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- 旅游局合作 -->
+	<div class="consociation container">
+		<div class="tab-title clearfix">
+			<h2>旅游局合作</h2>
+		</div>
+		<div class="consociation-info">
+			<ul class="clearfix">
+				<li>
+					<a href="#">
+						<img src="images/consociation01.jpg" alt="">
+						<br>
+						江苏省旅游局                       
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/consociation02.jpg" alt="">
+						<br>
+						柯桥区旅游局                      
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/consociation03.jpg" alt="">
+						<br>
+						徐州市旅游局
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/consociation04.jpg" alt="">
+						<br>
+						江阴市园林旅游管理局 
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/consociation05.jpg" alt="">
+						<br>
+						宁夏回族自治区旅游发展委员会
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/consociation06.jpg" alt="">
+						<br>
+						马来西亚旅游局                    
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/consociation07.jpg" alt="">
+						<br>
+						长沙市旅游局                    
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/consociation08.jpg" alt="">
+						<br>
+						烟台市旅游发展委员会
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/consociation09.jpg" alt="">
+						<br>
+						怀柔区旅发委                    
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/consociation10.jpg" alt="">
+						<br>
+						中原河南                    
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/consociation11.jpg" alt="">
+						<br>
+						美丽安徽                    
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/consociation12.jpg" alt="">
+						<br>
+						莲都旅游局                   
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/consociation03.jpg" alt="">
+						<br>
+						杭州建德                   
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/consociation14.jpg" alt="">
+						<br>
+						余杭旅游局                   
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/consociation15.jpg" alt="">
+						<br>
+						集美区文体广电出版
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/consociation16.jpg" alt="">
+						<br>
+						张家港旅游局      
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="consociation-info hidden">
+			<ul class="clearfix">
+				<li>
+					<a href="#">
+						<img src="images/consociation17.jpg" alt="">
+						<br>
+						江苏省旅游局                       
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/consociation18.jpg" alt="">
+						<br>
+						柯桥区旅游局                      
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/consociation19.jpg" alt="">
+						<br>
+						徐州市旅游局
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/consociation20.jpg" alt="">
+						<br>
+						江阴市园林旅游管理局 
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/consociation21.jpg" alt="">
+						<br>
+						宁夏回族自治区旅游发展委员会
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/consociation22.jpg" alt="">
+						<br>
+						马来西亚旅游局                    
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						<img src="images/consociation23.jpg" alt="">
+						<br>
+						长沙市旅游局                    
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div class="toggle-btn consociation-to">
+			<ul class="clearfix">
+				<li class="checked"></li>
+				<li></li>
+			</ul>
+		</div>
+	</div>
+	<!-- 保险公司合作 -->
+	<div class="insurancecompany container">
+		<div class="tab-title clearfix">
+			<h2>保险公司合作</h2>
+		</div>
+		<div class="insurancecompany-info">
+			<ul class="clearfix">
+				<li><img src="images/insurance/insure01.png" alt=""></li>
+				<li><img src="images/insurance/insure02.png" alt=""></li>
+				<li><img src="images/insurance/insure03.png" alt=""></li>
+				<li><img src="images/insurance/insure04.png" alt=""></li>
+				<li><img src="images/insurance/insure05.png" alt=""></li>
+				<li><img src="images/insurance/insure06.png" alt=""></li>
+				<li><img src="images/insurance/insure07.png" alt=""></li>
+				<li><img src="images/insurance/insure08.png" alt=""></li>
+			</ul>
+			<!-- 轮播按钮 -->
+		</div>
+		<div class="insurancecompany-info hidden">
+			<ul class="clearfix">
+				<li><img src="images/insurance/insure09.png" alt=""></li>
+				<li><img src="images/insurance/insure10.png" alt=""></li>
+				<li><img src="images/insurance/insure11.png" alt=""></li>
+				<li><img src="images/insurance/insure12.png" alt=""></li>
+				<li><img src="images/insurance/insure13.png" alt=""></li>
+				<li><img src="images/insurance/insure14.png" alt=""></li>
+				<li><img src="images/insurance/insure15.png" alt=""></li>
+				<li><img src="images/insurance/insure16.png" alt=""></li>
+			</ul>			
+		</div>
+		<div class="insurancecompany-info hidden">
+			<ul class="clearfix">
+				<li><img src="images/insurance/insure17.png" alt=""></li>
+				<li><img src="images/insurance/insure18.png" alt=""></li>
+				<li><img src="images/insurance/insure19.png" alt=""></li>
+				<li><img src="images/insurance/insure20.png" alt=""></li>
+				<li><img src="images/insurance/insure21.png" alt=""></li>
+				<li><img src="images/insurance/insure22.png" alt=""></li>
+				<li><img src="images/insurance/insure23.png" alt=""></li>
+				<li><img src="images/insurance/insure24.png" alt=""></li>
+			</ul>			
+		</div>
+		<div class="insurancecompany-info hidden">
+			<ul class="clearfix">
+				<li><img src="images/insurance/insure25.png" alt=""></li>
+				<li><img src="images/insurance/insure26.png" alt=""></li>
+				<li><img src="images/insurance/insure27.png" alt=""></li>				
+			</ul>			
+		</div>
+		<!-- 轮播按钮 -->
+		<div class="toggle-btn">
+			<ul class="clearfix">
+				<li class="checked"></li>
+				<li></li>
+				<li></li>
+				<li></li>
+			</ul>
+		</div>
+	</div>
+	<!-- 优势 -->
+	<div class="advantage">
+		<div class="advantage-info container">
+			<ul class="clearfix">
+				<li>
+					<img src="images/advantage01.png" alt="">
+					<p>价格公正，安心购买</p>
+				</li>
+				<li>
+					<img src="images/advantage02.png" alt="">
+					<p>品质保证，放心出行</p>
+				</li>
+				<li>
+					<img src="images/advantage03.png" alt="">
+					<p>产品丰富，一站式服务</p>
+				</li>
+				<li class="line-hidden">
+					<img src="images/advantage04.png" alt="">
+					<p>专业顾问，24小时客服</p>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<!-- 底部区域 -->
+	<div class="foot">
+		<div class="foot-top container clearfix">
+			<div class="phone-email fl">
+				<div class="phone">
+					<div class="phoneico"></div>
+					<p>24小时服务热线</p>
+					<p>4007-777-777</p>
+				</div>
+				<div class="email">
+					<div class="emailico"></div>
+					<p style="line-height: 47px">意见反馈</p>
+				</div>
+			</div>
+			<dl>
+				<dt>关于同程</dt>
+				<dd><a href="#">同程简介</a></dd>
+				<dd><a href="#">可信网站</a></dd>
+				<dd><a href="#">法律声明</a></dd>
+				<dd><a href="#">网站地图</a></dd>
+				<dd><a href="#">旅游度假资质</a></dd>
+				<dd><a href="#">隐私条款</a></dd>
+			</dl>
+			<dl>
+				<dt>加盟合作</dt>
+				<dd><a href="#">合作加盟</dd>
+				<dd><a href="#">商旅合作</dd>
+				<dd><a href="#">旅游保险</dd>
+				<dd><a href="#">网站联盟</dd>
+				<dd><a href="#">门票合作</dd>
+			</dl>
+			<dl>
+				<dt>联系我们</dt>
+				<dd><a href="#">联系我们</a></dd>
+				<dd><a href="#">投诉建议</a></dd>
+				<dd><a href="#">诚聘英才</a></dd>
+				<dd><a href="#">友情链接</a></dd>
+			</dl>
+			<dl>
+				<dt>同程旗下网站</dt>
+				<dd><a class="lyico lyico1" href=""></a></dd>
+				<dd><a class="lyico lyico2" href=""></a></dd>
+				<dd><a class="lyico lyico3" href=""></a></dd>
+			</dl>
+			<dl>
+				<dt class="nomargin">同程旅游app</dt>
+				<dd><img src="images/erweima.png" alt=""></dd>
+				<dd style="color: #fff">手机预订更优惠</dd>
+			</dl>
+		</div>
+		<!-- 热点推荐、友情链接 -->
+		<div class="foot-link container">
+			<!-- 热点推荐 -->
+			<div class="recommend-link clearfix">
+				<div class="recommend-link-title fl">热点推荐：</div>
+				<div class="recommend-link-info fl">
+					<ul class="clearfix">
+						<li><a href="">迪拜旅游</a></li>
+						<li><a href="">泰国旅游</a></li>
+						<li><a href="">巴厘岛旅游</a></li>
+						<li><a href="">普吉岛旅游</a></li>
+						<li><a href="">柬埔寨旅游</a></li>
+						<li><a href="">日本旅游</a></li>
+						<li><a href="">斯里兰卡旅游</a></li>
+						<li><a href="">泰国六日游</a></li>
+						<li><a href="">长滩岛旅游</a></li>
+						<li><a href="">马尔代夫旅游</a></li>
+						<li><a href="">越南旅游</a></li>
+						<li><a href="">夏威夷旅游</a></li>
+						<li><a href="">塞班岛旅游</a></li>
+						<li><a href="">新西兰旅游</a></li>
+						<li><a href="">欧洲旅游</a></li>
+						<!-- 隐藏部分 -->
+						<li><a href="">澳大利亚旅游</a></li>
+						<li><a href="">香港旅游</a></li>
+						<li><a href="">美国旅游</a></li>
+						<li><a href="">朝鲜旅游</a></li>
+						<li><a href="">土耳其旅游</a></li>
+						<li><a href="">法国旅游</a></li>
+						<li><a href="">泰国自助游</a></li>
+						<li><a href="">新加坡旅游</a></li>
+						<li><a href="">北海道旅游</a></li>
+						<li><a href="">冲绳旅游</a></li>
+						<li><a href="">埃及旅游</a></li>
+						<li><a href="">南非旅游</a></li>
+						<li><a href="">北京机票</a></li>
+						<li><a href="">上海机票</a></li>
+						<li><a href="">深圳机票</a></li>             
+					</ul>
+				</div>
+			</div>
+			<!-- 友情链接 -->
+			<div class="recommend-link clearfix">
+				<div class="recommend-link-title fl">友情链接：</div>
+				<div class="recommend-link-info fl">
+					<ul class="clearfix">
+						<li><a href="">QQ钱包</a></li>
+						<li><a href="">TripAdvisor</a></li>
+						<li><a href="">户外运动</a></li>
+						<li><a href="">地图查找</a></li>
+						<li><a href="">百度旅游</a></li>
+						<li><a href="">欣欣旅游网</a></li>
+						<li><a href="">艺龙旅游指南</a></li>
+						<li><a href="">米胖网</a></li>
+						<li><a href="">长岛旅游</a></li>
+						<li><a href="">五分旅游网</a></li>
+						<li><a href="">驴妈妈旅游网</a></li>
+						<li><a href="">劲旅网</a></li>
+						<li><a href="">天气网</a></li>
+						<li><a href="">北京中国国旅</a></li>
+						<li><a href="">九游网</a></li>
+						<li><a href="">中国签证资讯网</a></li>
+
+						<!-- 隐藏部分 -->
+						<li><a href="">游多多自助游</a></li>
+						<li><a href="">火车网</a></li>
+						<li><a href="">穷游网</a></li>
+						<li><a href="">旅游新媒体</a></li>
+						<li><a href="">中国经济网</a></li>
+						<li><a href="">酒店预订</a></li>
+						<li><a href="">邮编生活网</a></li>
+						<li><a href="">机票查询</a></li>
+						<li><a href="">客运站</a></li>
+						<li><a href="">旅游度假</a></li>
+						<li><a href="">中国地图</a></li>
+						<li><a href="">悠哉旅游网</a></li>
+						<li><a href="">蚂蜂窝旅游攻略</a></li>
+						<li><a href="">绿野户外网</a></li>
+						<li><a href="">酷讯旅游网</a></li> 
+						 <li><a href="">春秋旅游</a></li>                         
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- 网站资质 -->
+		<div class="site-aptitude">
+			
+		</div>
+	</div>
+</body>
+	<script src="js/index.js"></script>
+</html>

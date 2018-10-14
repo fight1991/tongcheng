@@ -1,0 +1,271 @@
+﻿a, b, body, dd, del, div, dl, dt, em, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var, input {
+    margin: 0;
+    padding: 0;
+}
+ol,
+ul {
+    list-style: none;
+}
+img,button,input {
+    border: 0;
+}
+em, i, u {
+    font-style: normal;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix {
+    *zoom: 1;
+}
+body {
+    font: 12px/1.5 'microsoft yahei',Arial, Verdana, "\5b8b\4f53";
+    color: #666;
+}
+a {
+    color: #666;
+    text-decoration: none;
+    font-family: 'microsoft yahei';
+}
+a:hover {
+    color: #c81623;
+}
+/* 版心公共类 */
+.container {
+    width: 1190px;
+    margin: 0 auto;
+}
+.ml-5 {
+    margin-left: 5px;
+}
+.mr-5 {
+    margin-right: 5px;
+}
+.mt-5 {
+    margin-top: 5px;
+}
+.mb-5 {
+    margin-bottom: 5px;
+}
+.pl-5 {
+    padding-left: 5px;
+}
+.pr-5 {
+    padding-right: 5px;
+}
+.pt-5 {
+    padding-top: 5px;
+}
+.pd-5 {
+    padding-bottom: 5px;
+}
+/* 网站主色调 */
+.m-color {
+    color: #00bf65;
+}
+/* 解决图片下面留白的问题 */
+img {
+    vertical-align: top;
+}
+/* 解决文字超出溢出问题 */
+.text-cut {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/*.dh{*/
+    /*height: 211px;*/
+    /*background-color: #6beeff;*/
+/*}*/
+
+/*.ban{*/
+  /*width: 1190px;*/
+  /*height: 430px;*/
+  /*border: 1px solid #000;*/
+  /*margin:20px auto;*/
+/*}*/
+/*.banl{*/
+    /*width: 268px;*/
+    /*height: 430px;*/
+    /*background-color: #475764;*/
+    /*float: left;*/
+/*}*/
+
+/*.banr{*/
+    /*width: 900px;*/
+    /*height: 430px;*/
+    /*background-color: lightgoldenrodyellow;*/
+   /*float: right;*/
+/*}*/
+/*.ba{*/
+    /*width: 900px;*/
+    /*height: 280px;*/
+    /*background-color: red;*/
+/*}*/
+
+
+/*.banrb{*/
+    /*width: 900px;*/
+    /*height: 130px;*/
+    /*background-color: lightpink;*/
+    /*margin-top:20px;*/
+/*}*/
+/*.banrb .box1{*/
+    /*width: 225px;*/
+    /*height: 130px;*/
+    /*background-color: pink;*/
+    /*float:left;*/
+/*}*/
+/*.banrb .box2{*/
+    /*width: 225px;*/
+    /*height: 130px;*/
+    /*background-color: gold;*/
+    /*float:left;*/
+/*}*/
+/*.banrb .box3{*/
+    /*width: 225px;*/
+    /*height: 130px;*/
+    /*background-color: darkblue;*/
+    /*float:left;*/
+/*}*/
+/*.banrb .box4{*/
+    /*width: 225px;*/
+    /*height: 130px;*/
+    /*background-color: hotpink;*/
+    /*float:left;*/
+/*}*/
+/*.banl .hot{*/
+    /*width: 268px;*/
+    /*height: 107px;*/
+    /*!*background-color: black;*!*/
+/*}*/
+/*ul{*/
+    /*display:block;*/
+/*}*/
+/*li{*/
+    /*float:left;*/
+    /*margin-left:30px;*/
+    /*font-size:14px;*/
+    /*color:white;*/
+/*}*/
+/*h3{*/
+    /*margin-left:30px;*/
+    /*padding-top:15px;*/
+    /*color:white;*/
+/*}*/
+/*.banl .hot-c{*/
+    /*width: 268px;*/
+    /*height: 107px;*/
+    /*!*background-color: darkred;*!*/
+/*}*/
+/*.hot-t-b{*/
+    /*width: 268px;*/
+    /*height: 120px;*/
+    /*!*background-color: hotpink;*!*/
+/*}*/
+/*.hot-b{*/
+    /*width: 268px;*/
+    /*height: 95px;*/
+/*}*/
+
+/*!*热卖秒杀*!*/
+/*.te {*/
+    /*width: 1190px;*/
+    /*height: 34px;*/
+    /*background-color: white;*/
+/*}*/
+/*.te .smallte{*/
+    /*width: 91px;*/
+    /*height: 23px;*/
+    /*background: url(../images/label.png) 0 0 no-repeat;*/
+/*}*/
+
+/*#sec{*/
+     /*width: 1190px;*/
+     /*height: 276px;*/
+     /*background-color: lightyellow;*/
+     /*position: relative;*/
+ /*}*/
+
+/*#sec .sec-le{*/
+    /*width: 260px;*/
+    /*height: 276px;*/
+    /*background-color: white;*/
+    /*position:absolute;*/
+    /*left:-50px;*/
+/*}*/
+
+/*#sec .sec-r{*/
+    /*width: 980px;*/
+    /*height: 276px;*/
+    /*background-color: gray;*/
+    /*position:absolute;*/
+    /*left:210px;*/
+/*}*/
+/*#sec .sec-r div{*/
+    /*width: 220px;*/
+    /*height: 136px;*/
+    /*background-color: yellow;*/
+    /*float:left;*/
+    /*margin-left:20px;*/
+    /*margin-top:20px;*/
+/*}*/
+/*#sec .sec-r div img {*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+/*}*/
+/*.end{*/
+    /*width: 1190px;*/
+    /*height: 35px;*/
+    /*background-color: gold;*/
+    /*margin-top:35px;*/
+
+/*}*/
+/*.end .week{*/
+    /*width: 130px;*/
+    /*height: 25px;*/
+    /*float:left;*/
+    /*background: #fff url(../images/end.png) 0 0 no-repeat;*/
+/*}*/
+/*.end .city{*/
+    /*!*width: 518px;*!*/
+    /*height: 25px;*/
+    /*!*border:1px solid red;*!*/
+    /*float:left;*/
+    /*margin-left: 100px;*/
+/*}*/
+/*.end .more{*/
+    /*width: 75px;*/
+    /*height: 25px;*/
+    /*!*background-color: darkgreen;*!*/
+    /*float:right;*/
+    /*background: #fff url(../images/sy_02.png) right center no-repeat;*/
+/*}*/
+/*.end .more span{*/
+    /*line-height: 25px;*/
+/*}*/
+/*.end .city li:hover{*/
+    /*background-color: #475764;*/
+/*}*/
+/*.end .city li a:hover{*/
+    /*color:white;*/
+/*}*/
+
+/*.end .city li{*/
+    /*width: 47px;*/
+    /*height: 23px;*/
+
+    /*!*background-color: red;*!*/
+    /*text-align: center;*/
+/*}*/

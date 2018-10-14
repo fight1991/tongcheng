@@ -1,0 +1,362 @@
+a, b, body, dd, del, div, dl, dt, em, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var, input {
+    margin: 0;
+    padding: 0;
+}
+ol,
+ul {
+    list-style: none;
+}
+img,button,input {
+    border: 0;
+    outline: none;
+}
+em, i, u {
+    font-style: normal;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix {
+    *zoom: 1;
+}
+body {
+    font: 12px/1.5 'microsoft yahei',Arial, Verdana, "\5b8b\4f53";
+    color: #666;
+}
+a {
+    color: #666;
+    text-decoration: none;
+    font-family: 'microsoft yahei';
+}
+a:hover {
+    color: #c81623;
+}
+/* 版心公共类 */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+.ml-5 {
+    margin-left: 5px;
+}
+.mr-5 {
+    margin-right: 5px;
+}
+.mt-5 {
+    margin-top: 5px;
+}
+.mb-5 {
+    margin-bottom: 5px;
+}
+.pl-5 {
+    padding-left: 5px;
+}
+.pr-5 {
+    padding-right: 5px;
+}
+.pt-5 {
+    padding-top: 5px;
+}
+.pd-5 {
+    padding-bottom: 5px;
+}
+/* 网站主色调 */
+.m-color {
+    color: #c81623;
+}
+/* 解决图片下面留白的问题 */
+img {
+    vertical-align: top;
+}
+/* 解决文字超出溢出问题 */
+.text-cut {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+/* 公共头部区域 */
+.pyg-header {
+    /* height: 180px; */
+    border-bottom: 2px solid #b1191a;
+}
+.pyg-header .header-t {
+    height: 31px;
+    background-color: #f1f1f1;
+}
+.pyg-header .header-t .login {
+    line-height: 31px;
+}
+.pyg-header .header-t .site-nav {
+    line-height: 31px;
+}
+.header-t .site-nav li {
+    float: left;
+}
+.header-t .site-nav li.line {
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    margin: 9px 15px 0;
+}
+.header-t .site-nav i {
+    /* 抵消掉字体图标影响文字效果 */
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+}
+.header-b {
+    height: 105px;
+    background-color: yellow;
+    position: relative;
+}
+.header-b .logo {
+    width: 171px;
+    height: 62px;
+    background: url(../images/logo.png) 0 0 no-repeat;
+    position: absolute;
+    top: 50%;
+    margin-top: -31px;
+    left: 0;
+    /* text-indent: -99999px; */
+    font-size: 0;
+}
+.header-b .logo h1 a{
+    height: 62px;
+    display: block;
+}
+.header-b .search {
+    width: 538px;
+    height: 36px;
+    background-color: red;
+    position: absolute;
+    left: 350px;
+    top: 27px;
+}
+.header-b .search input {
+    width: 454px;
+    height: 32px;
+    border:2px solid #b1191a;
+    text-indent: 15px;
+}
+.header-b .search button {
+    width: 80px;
+    height: 36px;
+    background-color: #b1191a;
+    color: #fff;
+}
+.header-b .search button i {
+    font-size: 22px;
+}
+.shopping-cart {
+    width: 138px;
+    height: 34px;
+    border: 1px solid #ccc;
+    position: absolute;
+    right: 62px;
+    top: 25px;  
+    text-align: center;
+    line-height: 34px;
+    background-color: #fff;
+}
+.shopping-cart i {
+    vertical-align: middle;
+    position: relative;
+    top: -2px;
+}
+.shopping-cart .count {
+    background-color: red;
+    position: absolute;
+    left: 104px;
+    top: -10px;
+    line-height: 1.5;
+    padding: 0 5px;
+    border-radius: 50px 50px 50px 0; 
+    color: #fff;
+}
+.shopping-cart .dropdown {
+    width: 310px;
+    border: 1px solid #ccc;
+    position: absolute;
+    right: -1px;
+    top: 34px;
+    background-color: #fff;
+    display: none;
+    line-height: 76px;
+    /* 最小高 */
+    min-height: 76px;
+    z-index: 2;
+}
+/* dropdown必须是shopping-cart的嵌套元素 */
+.shopping-cart:hover .dropdown {
+    display: block;
+}
+.white-box {
+    width: 138px;
+    height: 3px;
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    top: -2px;
+}
+.header-b .keywords {
+    position: absolute;
+    top: 61px;
+    left: 348px;
+    line-height: 30px;
+}
+.header-b .keywords a {
+    margin: 0 10px;
+}
+.header-f {
+    background-color: red;
+}
+.header-f-rec {
+    width: 209px;
+    height: 45px;
+    background-color: #b1191a;
+    text-align: center;
+    line-height: 45px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+}
+.header-f-rec .dropdown {
+    width: 209px;
+    height: 465px;
+    background-color: blue;
+    position: absolute;
+    left: 0;
+    top: 46px;
+    display: none;
+}
+.header-f-rec .dropdown ul {
+    height: 465px;
+    border-left:1px solid #b1191a;
+}
+.header-f-rec .dropdown li {
+    height: 31px;
+    background-color: pink;
+    line-height: 31px;
+    text-align: left;
+    text-indent: 10px;
+    position: relative;
+}
+.header-f-rec .dropdown li a {
+    color: #fff;
+}
+.header-f-rec .dropdown li:hover {
+    background-color: #fff;
+}
+.header-f-rec .dropdown li:hover a {
+    color: #b1191a; 
+}
+.header-f-rec .dropdown li .arrow {
+    position: absolute;
+    right: 10px;
+    top: 1px;
+}
+.header-f-rec .dropdown li:hover .arrow {
+    color: #b1191a;
+}
+.header-f-nav ul {
+    margin-left: 40px;
+    background-color: blue;
+}
+.header-f-nav li {
+    float: left;
+    height: 45px;
+    line-height: 45px;
+    margin-right: 48px;
+    font-size: 16px;
+    position: relative;
+}
+.header-f-nav li .tips {
+    width: 70px;
+    height: 20px;
+    background-color: #b1191a;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    left: 33px;
+    top: -10px;
+    border-radius: 10px 10px 10px 0;
+    font-size: 12px;
+}
+/* 底部区域 */
+.pyg-footer {
+    height: 450px;
+    background-color: #f5f5f5;
+}
+.footer-h {
+    height: 109px;
+    border-bottom: 1px solid #ccc;
+}
+.footer-h .advantage {
+    width: 20%;
+    height: 50px;
+    background-color: yellow;
+    float: left;
+    margin-top: 30px;
+    text-indent: 94px;
+    position: relative;
+}
+.footer-h .advantage .icon {
+    width: 49px;
+    height: 49px;
+    background: #fff url(../images/icons.png) -253px -3px no-repeat;
+    position: absolute;
+    left: 40px;
+    top: 0;
+}
+.footer-b {
+    padding: 15px 0;
+}
+.footer-b dl {
+    width: 16.6666%;
+    background-color: red;
+    float: left;
+    text-indent: 50px;
+}
+.footer-b dl dt {
+    font-size: 16px;
+    line-height: 35px;
+}
+.footer-b dd {
+    line-height: 20px;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+/* 公共分页模块 */
+.page {
+    margin: 40px 0;
+}
+.page ul {
+    text-align: center;
+}
+.page li {
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+.page li.noborder {
+    border: 1px solid transparent;
+}
+.active-num input {
+    border: 1px solid #ccc;
+    width: 44px;
+    height: 38px;
+    margin: 0 5px;
+}
